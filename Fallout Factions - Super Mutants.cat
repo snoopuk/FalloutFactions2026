@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="23773762-8eed-5441-8b00-61a0bdb57fbc" name="Super Mutants" revision="1" battleScribeVersion="2.03" authorName="Personal use" gameSystemId="e8ea97a4-676b-55f2-a1df-54b8b97e97aa" gameSystemRevision="1" library="false" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>Source: Fallout: Factions core / Battle for Boston faction guide assembly guide supplied by the user. Ratings shown = model + weapon set.</readme>
+  <selectionEntries>
+    <selectionEntry id="2b57f2f2-423e-501f-b274-997a8c60b4dc" name="Crew Rules and Ploys" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints><constraint type="max" value="1" field="selections" scope="force" shared="true" id="38a2daba-4224-5ac4-8d7e-41e85ca9bba6"/></constraints>
+      <rules>
+        <rule id="d2839218-3c97-578d-be5b-9bc79ba79359" name="Crew Limits" hidden="false"><description>Upgrade Limit per model: T1 4 / T2 6 / T3 8; Champion Limit: T1 2 / T2 3 / T3 4; Total Control Limit: T1 2 / T2 4 / T3 6</description></rule>
+        <rule id="46860ad9-72ca-59ff-9931-54854e7a3dd8" name="Captive Story Action" hidden="false"><description>Devour Captive (see the Fallout: Factions Rulebook). Do not use if fielding this crew in a Starter Set Campaign.</description></rule>
+        <rule id="17c03a90-b0aa-5aa6-b3cc-dee2946452d6" name="Ploy: Surging Advance" hidden="false"><description>Start of any Round except the first: each Unengaged model may move up to 4", but cannot move into the Proximity of an Enemy model.</description></rule>
+        <rule id="484340be-fd5a-5ad4-85ae-ba9b32e3001e" name="Ploy: The Next Stage" hidden="false"><description>Start of your Turn: Recover 1 Harm on each of your models; until the start of the next Round each gets +1 Endurance.</description></rule>
+        <rule id="5d05edf1-6520-5df8-b544-4d88d107523e" name="Hound restriction" hidden="false"><description>You cannot recruit a Hound if half or more of your Grunts are already Hounds.</description></rule>
+      </rules>
+      <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="0.0"/></costs>
+    </selectionEntry>
+    <selectionEntry id="1ef2b669-8f91-54fc-a126-b31c86200234" name="Master" hidden="false" collective="false" import="true" type="model">
+      <constraints><constraint type="max" value="1" field="selections" scope="force" shared="true" id="e5bc5da6-ab84-57b2-a8de-eab581c4ea29"/></constraints>
+      <categoryLinks>
+        <categoryLink id="75720764-e370-5220-ac69-602795f90aaa" name="Leader" hidden="false" targetId="c937afaa-1e6f-520b-acef-ec5e4ad893e1" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9fa718ca-b5bd-5c9c-afa9-04df0c8199f4" name="Weapon Set" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="112a3f92-046d-55b7-a9d7-8bc1a23fe1e5"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="98706a19-52cf-50a4-bb2d-c01f7bbe35eb"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="91672991-8df9-544f-9a0c-e85a50db090b" name="Plasma Pistol &amp; Sledgehammer" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="d82616e7-13dc-5eaa-a66e-172d84a119f7" name="Plasma Pistol" hidden="false" targetId="cfd3b41c-3a79-589e-af65-25c7b50d3064" type="profile"/>
+                <infoLink id="acdb1cc0-9927-5fe6-842a-8f4641fbc035" name="Sledgehammer" hidden="false" targetId="28b3ddb9-1c31-54cf-b322-19cdb9dd1e1f" type="profile"/>
+              </infoLinks>
+              <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="46.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="7b9b0cae-2f5a-5151-b3d2-dbe4706de52c" name="Short Hunting Rifle &amp; Super Sledge" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="a8da20ba-c4c3-5ee8-b101-aa8e559b55af" name="Short Hunting Rifle" hidden="false" targetId="4bee1b27-ae84-50a8-981e-65ed6f7700e6" type="profile"/>
+                <infoLink id="f9cea2b5-47a4-5558-a233-1c5e34e49aa2" name="Super Sledge" hidden="false" targetId="72988ca1-cd64-588e-bfa6-68f85e937762" type="profile"/>
+              </infoLinks>
+              <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="48.0"/></costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="ca2bd3af-3e3e-5659-94fe-4e0b0ac13377" name="Champion Training Upgrades" hidden="false" collective="false" import="true" targetId="ccdad12c-505c-5973-9a75-842274362cd8" type="selectionEntryGroup"/>
+      </entryLinks>
+      <profiles>
+        <profile id="f96cb45b-f3f3-57aa-b6bc-540c905991f9" name="Master" hidden="false" typeId="6f8b4d4e-553f-5269-862d-37ad984d2442" typeName="Model">
+          <characteristics>
+            <characteristic name="Class" typeId="ab805507-2099-5a2a-bfa4-3dd6a9c321ca">Champion, Leader</characteristic>
+            <characteristic name="S" typeId="0dfa85c6-bc00-5557-bfa6-9188a526b111">6</characteristic>
+            <characteristic name="P" typeId="5fba5b08-5d00-56e6-bed6-cd0e4fa09288">5</characteristic>
+            <characteristic name="E" typeId="ef05f34c-a827-5bff-b3c7-5628a0967b19">6</characteristic>
+            <characteristic name="C" typeId="2580abe8-587f-58dc-a4da-e2cab85d5772">5</characteristic>
+            <characteristic name="I" typeId="cece4755-c033-5321-9305-b16e59d38fbb">5</characteristic>
+            <characteristic name="A" typeId="727bf504-4b36-5742-bbfd-78706126f788">5</characteristic>
+            <characteristic name="L" typeId="f5566a6b-f3df-5849-92fa-dc487adfc5fa">3</characteristic>
+            <characteristic name="Health" typeId="b94507e5-c7a2-5063-a1cf-e3066d33544a">3</characteristic>
+            <characteristic name="Perks" typeId="16b4b8c5-f4b7-5701-aa41-b6d8a211dd6e">Burly (Innate), Natural Leader (Innate), Rad Resistant (Endurance)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="0.0"/></costs>
+    </selectionEntry>
+    <selectionEntry id="ba64a2b7-7370-5206-a91f-d62e342a05b3" name="Brute" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="bbc2be39-e798-535c-a31a-e68044374ce8" name="Champion" hidden="false" targetId="1989afc2-9b3d-5d79-ad30-6671998e9a6a" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e075e59e-3924-548d-8dd4-fedd4f9d6187" name="Weapon Set" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f567919f-3463-5cc1-bb1f-71e93697f205"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4e710f7d-1a24-5efa-b246-22c1e0277435"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="a624a265-4d44-5717-a046-f5a201ac870c" name="Sledgehammer" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints><constraint type="max" value="2" field="selections" scope="force" shared="true" id="61d99067-f5a5-5b3f-baa2-8239eca7e1f9"/></constraints>
+              <infoLinks>
+                <infoLink id="f8561b92-87f5-58eb-bbcf-ff00b3c3d8f2" name="Sledgehammer" hidden="false" targetId="28b3ddb9-1c31-54cf-b322-19cdb9dd1e1f" type="profile"/>
+              </infoLinks>
+              <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="37.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="237f34e8-cd03-5286-a41f-0b9142db114e" name="Laser Rifle" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints><constraint type="max" value="2" field="selections" scope="force" shared="true" id="7e6c6d25-9a73-53e7-91dd-664c3a832753"/></constraints>
+              <infoLinks>
+                <infoLink id="ab8c3d1e-b2d3-5369-904c-2c775206ba07" name="Laser Rifle" hidden="false" targetId="24807ed0-0461-5439-b008-ce4d41332c9f" type="profile"/>
+              </infoLinks>
+              <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="40.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="168e0d48-2b9d-54d8-b467-ea8280c1d47f" name="Minigun" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints><constraint type="max" value="2" field="selections" scope="force" shared="true" id="1648da39-d289-5812-9bd0-294919d651fd"/></constraints>
+              <infoLinks>
+                <infoLink id="eb4195c8-6e2c-5b7d-b9cf-df13a2e35423" name="Minigun" hidden="false" targetId="a46c8b35-868f-55e9-aa47-d331e6da64e4" type="profile"/>
+              </infoLinks>
+              <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="48.0"/></costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="b06de5fd-5b8c-5144-bf77-644984f72581" name="Champion Training Upgrades" hidden="false" collective="false" import="true" targetId="ccdad12c-505c-5973-9a75-842274362cd8" type="selectionEntryGroup"/>
+      </entryLinks>
+      <profiles>
+        <profile id="2bd44f86-365d-5dcb-ba49-104dcaf28acc" name="Brute" hidden="false" typeId="6f8b4d4e-553f-5269-862d-37ad984d2442" typeName="Model">
+          <characteristics>
+            <characteristic name="Class" typeId="ab805507-2099-5a2a-bfa4-3dd6a9c321ca">Champion</characteristic>
+            <characteristic name="S" typeId="0dfa85c6-bc00-5557-bfa6-9188a526b111">6</characteristic>
+            <characteristic name="P" typeId="5fba5b08-5d00-56e6-bed6-cd0e4fa09288">5</characteristic>
+            <characteristic name="E" typeId="ef05f34c-a827-5bff-b3c7-5628a0967b19">6</characteristic>
+            <characteristic name="C" typeId="2580abe8-587f-58dc-a4da-e2cab85d5772">5</characteristic>
+            <characteristic name="I" typeId="cece4755-c033-5321-9305-b16e59d38fbb">4</characteristic>
+            <characteristic name="A" typeId="727bf504-4b36-5742-bbfd-78706126f788">5</characteristic>
+            <characteristic name="L" typeId="f5566a6b-f3df-5849-92fa-dc487adfc5fa">2</characteristic>
+            <characteristic name="Health" typeId="b94507e5-c7a2-5063-a1cf-e3066d33544a">2</characteristic>
+            <characteristic name="Perks" typeId="16b4b8c5-f4b7-5701-aa41-b6d8a211dd6e">Burly (Innate), Rad Resistant (Endurance)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="0.0"/></costs>
+    </selectionEntry>
+    <selectionEntry id="294df2f3-f201-5da4-8781-b76d8a054eb4" name="Skirmisher" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="c7dbd285-a342-5340-8771-dd4923c18259" name="Grunt" hidden="false" targetId="2589ed89-7fed-53e4-a8e6-77d978503ec5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0de29f95-f122-563e-b08d-f5d8545b5a6c" name="Weapon Set" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f0b95ef2-db98-5567-bd6d-0fbd828a099b"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d015216a-1849-5f5a-88d8-90cc7abbfcdd"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="10a6e0e1-ab4e-55b6-9b73-84256a6aac19" name="Automatic Pipe Rifle" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints><constraint type="max" value="3" field="selections" scope="force" shared="true" id="c65ce64c-89db-52a4-88a6-eaf6d2bec504"/></constraints>
+              <infoLinks>
+                <infoLink id="c4c30d2b-eb96-510e-9918-1a01484bda8c" name="Automatic Pipe Rifle" hidden="false" targetId="549bc767-4f15-5d0d-b37f-c5d07777eaad" type="profile"/>
+              </infoLinks>
+              <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="28.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="048bf4fc-af31-5ada-84d1-25de2d2b23e4" name="Precision Pipe Rifle" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints><constraint type="max" value="3" field="selections" scope="force" shared="true" id="d7dcfbaf-4bf0-50db-b203-097c8d53d07a"/></constraints>
+              <infoLinks>
+                <infoLink id="c74414fd-f639-5269-9fd7-8dfa1754c4f9" name="Precision Pipe Rifle" hidden="false" targetId="9b296785-2d37-565a-a58e-9d18d4ee1757" type="profile"/>
+              </infoLinks>
+              <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="30.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="55d46f9e-93fd-573f-ae9d-ff69749aef64" name="Laser Rifle" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints><constraint type="max" value="3" field="selections" scope="force" shared="true" id="89e4d5f9-daaf-5aaa-bfaf-0bd535da48e6"/></constraints>
+              <infoLinks>
+                <infoLink id="0266369d-0218-5864-a33b-25a0bdca173d" name="Laser Rifle" hidden="false" targetId="24807ed0-0461-5439-b008-ce4d41332c9f" type="profile"/>
+              </infoLinks>
+              <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="33.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="047b7fef-7cc7-5139-a624-69123e195bf2" name="Assault Rifle" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints><constraint type="max" value="3" field="selections" scope="force" shared="true" id="3e1ffd4f-3a1e-5cf4-90cd-2b074e24f5bf"/></constraints>
+              <infoLinks>
+                <infoLink id="91057cec-d987-553f-9e1f-61136e398a8c" name="Assault Rifle" hidden="false" targetId="639c3f01-22b1-5706-b7fe-a64d1349e696" type="profile"/>
+              </infoLinks>
+              <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="33.0"/></costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="ece3b2d0-f889-56e4-8679-e2c31261f893" name="Grunt Training Upgrades" hidden="false" collective="false" import="true" targetId="4544580c-0ff7-5ab4-b5f6-5bbc2263508a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <profiles>
+        <profile id="40fc19ce-51c0-5a1a-9d62-af9ef120c99c" name="Skirmisher" hidden="false" typeId="6f8b4d4e-553f-5269-862d-37ad984d2442" typeName="Model">
+          <characteristics>
+            <characteristic name="Class" typeId="ab805507-2099-5a2a-bfa4-3dd6a9c321ca">Grunt</characteristic>
+            <characteristic name="S" typeId="0dfa85c6-bc00-5557-bfa6-9188a526b111">5</characteristic>
+            <characteristic name="P" typeId="5fba5b08-5d00-56e6-bed6-cd0e4fa09288">4</characteristic>
+            <characteristic name="E" typeId="ef05f34c-a827-5bff-b3c7-5628a0967b19">5</characteristic>
+            <characteristic name="C" typeId="2580abe8-587f-58dc-a4da-e2cab85d5772">4</characteristic>
+            <characteristic name="I" typeId="cece4755-c033-5321-9305-b16e59d38fbb">5</characteristic>
+            <characteristic name="A" typeId="727bf504-4b36-5742-bbfd-78706126f788">5</characteristic>
+            <characteristic name="L" typeId="f5566a6b-f3df-5849-92fa-dc487adfc5fa">2</characteristic>
+            <characteristic name="Health" typeId="b94507e5-c7a2-5063-a1cf-e3066d33544a">1</characteristic>
+            <characteristic name="Perks" typeId="16b4b8c5-f4b7-5701-aa41-b6d8a211dd6e">Burly (Innate), Rad Resistant (Endurance)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="0.0"/></costs>
+    </selectionEntry>
+    <selectionEntry id="b7edf096-eb36-54b3-afb4-5bc5707f1819" name="Enforcer" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="27abdfc5-f046-5d30-8a22-fbad92a5ab23" name="Grunt" hidden="false" targetId="2589ed89-7fed-53e4-a8e6-77d978503ec5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ee250725-6a89-510f-a630-eac8a7d09a42" name="Weapon Set" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="17114a7d-fcce-5480-8b75-379cbab764cb"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="93e479b9-9626-59ff-82d8-21501fd417bb"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="ba808253-10af-5abf-8680-2bb5f3890875" name="Pipe Pistol &amp; Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints><constraint type="max" value="3" field="selections" scope="force" shared="true" id="edab02dc-8d91-5060-b7a0-8bc8c9168a69"/></constraints>
+              <infoLinks>
+                <infoLink id="8afd2068-889b-5655-a2b0-c508d12eee39" name="Pipe Pistol" hidden="false" targetId="f4bd6363-d175-56ef-94fa-f11c980514bd" type="profile"/>
+                <infoLink id="05b953a5-4eab-5351-9641-ccae71a9b91d" name="Hand Weapon" hidden="false" targetId="f5cd00b8-dedc-5296-a7ef-00b08f15ee14" type="profile"/>
+              </infoLinks>
+              <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="17.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="5368fdc5-6dd2-50f4-a801-6a633f683c91" name="Hand Weapon &amp; Molotov Cocktails" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints><constraint type="max" value="3" field="selections" scope="force" shared="true" id="04d3ac8c-c82e-5dc6-b421-37716b5f42f3"/></constraints>
+              <infoLinks>
+                <infoLink id="146b676b-6b96-514b-966f-b08d7dad2876" name="Hand Weapon" hidden="false" targetId="f5cd00b8-dedc-5296-a7ef-00b08f15ee14" type="profile"/>
+                <infoLink id="18cd6ea4-e598-5cc8-9874-05483cd2ad48" name="Molotov Cocktails" hidden="false" targetId="c894d1d0-c1b0-56ac-84d5-0b367abc86d7" type="profile"/>
+              </infoLinks>
+              <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="25.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="9f498dd2-0cb1-509e-8b0d-53e9637f3f4b" name="Heavy Pipe Pistol &amp; Sledgehammer" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints><constraint type="max" value="3" field="selections" scope="force" shared="true" id="0705cdd2-339f-512a-917c-66965403dc9a"/></constraints>
+              <infoLinks>
+                <infoLink id="58aab4cb-af58-557e-87ec-4378790cb542" name="Heavy Pipe Pistol" hidden="false" targetId="6a56ae18-1fbf-5b8b-8c4d-dfe0a0158fc6" type="profile"/>
+                <infoLink id="4362c54d-0203-5cd8-9727-bafbb3c73ccc" name="Sledgehammer" hidden="false" targetId="28b3ddb9-1c31-54cf-b322-19cdb9dd1e1f" type="profile"/>
+              </infoLinks>
+              <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="25.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="321db234-596b-5512-bc91-42c02340737a" name="Molotov Cocktails &amp; Super Sledge" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints><constraint type="max" value="3" field="selections" scope="force" shared="true" id="2f8c9837-26b1-588c-9e5b-e6599da480a4"/></constraints>
+              <infoLinks>
+                <infoLink id="26bd4dbe-905f-5bc8-9939-e0316080d35a" name="Molotov Cocktails" hidden="false" targetId="c894d1d0-c1b0-56ac-84d5-0b367abc86d7" type="profile"/>
+                <infoLink id="7e9adb93-9725-5e22-b492-8462069790ad" name="Super Sledge" hidden="false" targetId="72988ca1-cd64-588e-bfa6-68f85e937762" type="profile"/>
+              </infoLinks>
+              <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="26.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="7e6e3e7b-da93-527d-8d48-ec647d242f4a" name="Short Hunting Rifle &amp; Molotov Cocktails" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints><constraint type="max" value="3" field="selections" scope="force" shared="true" id="fc62055c-50ed-503c-b3dc-7d2f3b4adc16"/></constraints>
+              <infoLinks>
+                <infoLink id="b4d9db83-7941-5ba1-a766-640d418d7c7f" name="Short Hunting Rifle" hidden="false" targetId="4bee1b27-ae84-50a8-981e-65ed6f7700e6" type="profile"/>
+                <infoLink id="6af356d9-b234-5d88-8667-63e372b6d69e" name="Molotov Cocktails" hidden="false" targetId="c894d1d0-c1b0-56ac-84d5-0b367abc86d7" type="profile"/>
+              </infoLinks>
+              <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="28.0"/></costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="8b737809-1d1e-5e53-a009-9dca22901bca" name="Grunt Training Upgrades" hidden="false" collective="false" import="true" targetId="4544580c-0ff7-5ab4-b5f6-5bbc2263508a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <profiles>
+        <profile id="48f34a91-50ab-5dac-bdc8-55dec19b6554" name="Enforcer" hidden="false" typeId="6f8b4d4e-553f-5269-862d-37ad984d2442" typeName="Model">
+          <characteristics>
+            <characteristic name="Class" typeId="ab805507-2099-5a2a-bfa4-3dd6a9c321ca">Grunt</characteristic>
+            <characteristic name="S" typeId="0dfa85c6-bc00-5557-bfa6-9188a526b111">5</characteristic>
+            <characteristic name="P" typeId="5fba5b08-5d00-56e6-bed6-cd0e4fa09288">3</characteristic>
+            <characteristic name="E" typeId="ef05f34c-a827-5bff-b3c7-5628a0967b19">5</characteristic>
+            <characteristic name="C" typeId="2580abe8-587f-58dc-a4da-e2cab85d5772">3</characteristic>
+            <characteristic name="I" typeId="cece4755-c033-5321-9305-b16e59d38fbb">5</characteristic>
+            <characteristic name="A" typeId="727bf504-4b36-5742-bbfd-78706126f788">4</characteristic>
+            <characteristic name="L" typeId="f5566a6b-f3df-5849-92fa-dc487adfc5fa">2</characteristic>
+            <characteristic name="Health" typeId="b94507e5-c7a2-5063-a1cf-e3066d33544a">1</characteristic>
+            <characteristic name="Perks" typeId="16b4b8c5-f4b7-5701-aa41-b6d8a211dd6e">Burly (Innate), Rad Resistant (Endurance)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="0.0"/></costs>
+    </selectionEntry>
+    <selectionEntry id="51250959-8623-5214-b7b0-56955cc5e5a5" name="Hound" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="08fd0cf3-abd3-576b-8463-6b281b3fcfa3" name="Grunt" hidden="false" targetId="2589ed89-7fed-53e4-a8e6-77d978503ec5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ac34f827-84cb-56ce-a418-d317edf6ac16" name="Weapon Set" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="41d55386-4802-5ec6-8299-0df0f819b516"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="34204f49-855a-5227-82f8-3b3d7ffdafb1"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="efe874d5-f64a-5901-9816-5f17ac36884e" name="Claws &amp; Jaws" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="e05863dc-5a73-5d14-a97b-9ab5ce687ea6" name="Claws &amp; Jaws" hidden="false" targetId="6a66e9fc-ddcc-51bb-81fa-de5b4a7340ce" type="profile"/>
+              </infoLinks>
+              <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="10.0"/></costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="96b83bec-502e-51d1-ba82-a78591e0e6ff" name="Grunt Training Upgrades" hidden="false" collective="false" import="true" targetId="4544580c-0ff7-5ab4-b5f6-5bbc2263508a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <profiles>
+        <profile id="9fbb1875-b97a-5a95-9710-db201d3ec9f3" name="Hound" hidden="false" typeId="6f8b4d4e-553f-5269-862d-37ad984d2442" typeName="Model">
+          <characteristics>
+            <characteristic name="Class" typeId="ab805507-2099-5a2a-bfa4-3dd6a9c321ca">Grunt</characteristic>
+            <characteristic name="S" typeId="0dfa85c6-bc00-5557-bfa6-9188a526b111">4</characteristic>
+            <characteristic name="P" typeId="5fba5b08-5d00-56e6-bed6-cd0e4fa09288">2</characteristic>
+            <characteristic name="E" typeId="ef05f34c-a827-5bff-b3c7-5628a0967b19">4</characteristic>
+            <characteristic name="C" typeId="2580abe8-587f-58dc-a4da-e2cab85d5772">3</characteristic>
+            <characteristic name="I" typeId="cece4755-c033-5321-9305-b16e59d38fbb">3</characteristic>
+            <characteristic name="A" typeId="727bf504-4b36-5742-bbfd-78706126f788">5</characteristic>
+            <characteristic name="L" typeId="f5566a6b-f3df-5849-92fa-dc487adfc5fa">1</characteristic>
+            <characteristic name="Health" typeId="b94507e5-c7a2-5063-a1cf-e3066d33544a">1</characteristic>
+            <characteristic name="Perks" typeId="16b4b8c5-f4b7-5701-aa41-b6d8a211dd6e">Beast (Innate), Burly (Innate), Sic' Em (Innate), Rad Resistant (Endurance)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="0.0"/></costs>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedProfiles>
+    <profile id="639c3f01-22b1-5706-b7fe-a64d1349e696" name="Assault Rifle" hidden="false" typeId="1166ff3c-b4bc-5371-b76d-272c0b5afe2e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="5a05e85b-bf69-5f32-bd81-a717d04a1f30">Rifle (20")</characteristic>
+        <characteristic name="Test" typeId="0b5f2f64-cb1d-53af-8c92-b1a2b97c0cf3">4P</characteristic>
+        <characteristic name="Traits" typeId="84a2efbc-53df-5a06-9293-eec1dc6d1151">Storm (1)</characteristic>
+        <characteristic name="Critical Effect" typeId="84500f40-b796-5044-bef0-2a69bf7195d2">Maim</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="549bc767-4f15-5d0d-b37f-c5d07777eaad" name="Automatic Pipe Rifle" hidden="false" typeId="1166ff3c-b4bc-5371-b76d-272c0b5afe2e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="5a05e85b-bf69-5f32-bd81-a717d04a1f30">Rifle (16")</characteristic>
+        <characteristic name="Test" typeId="0b5f2f64-cb1d-53af-8c92-b1a2b97c0cf3">3P</characteristic>
+        <characteristic name="Traits" typeId="84a2efbc-53df-5a06-9293-eec1dc6d1151">Aim (+1), Storm (1)</characteristic>
+        <characteristic name="Critical Effect" typeId="84500f40-b796-5044-bef0-2a69bf7195d2">Suppress (2)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6a66e9fc-ddcc-51bb-81fa-de5b4a7340ce" name="Claws &amp; Jaws" hidden="false" typeId="1166ff3c-b4bc-5371-b76d-272c0b5afe2e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="5a05e85b-bf69-5f32-bd81-a717d04a1f30">Melee</characteristic>
+        <characteristic name="Test" typeId="0b5f2f64-cb1d-53af-8c92-b1a2b97c0cf3">4S</characteristic>
+        <characteristic name="Traits" typeId="84a2efbc-53df-5a06-9293-eec1dc6d1151">Fast</characteristic>
+        <characteristic name="Critical Effect" typeId="84500f40-b796-5044-bef0-2a69bf7195d2">Suppress (1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f5cd00b8-dedc-5296-a7ef-00b08f15ee14" name="Hand Weapon" hidden="false" typeId="1166ff3c-b4bc-5371-b76d-272c0b5afe2e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="5a05e85b-bf69-5f32-bd81-a717d04a1f30">Melee</characteristic>
+        <characteristic name="Test" typeId="0b5f2f64-cb1d-53af-8c92-b1a2b97c0cf3">3S</characteristic>
+        <characteristic name="Traits" typeId="84a2efbc-53df-5a06-9293-eec1dc6d1151">Fast</characteristic>
+        <characteristic name="Critical Effect" typeId="84500f40-b796-5044-bef0-2a69bf7195d2">—</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6a56ae18-1fbf-5b8b-8c4d-dfe0a0158fc6" name="Heavy Pipe Pistol" hidden="false" typeId="1166ff3c-b4bc-5371-b76d-272c0b5afe2e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="5a05e85b-bf69-5f32-bd81-a717d04a1f30">Pistol (8")</characteristic>
+        <characteristic name="Test" typeId="0b5f2f64-cb1d-53af-8c92-b1a2b97c0cf3">4A</characteristic>
+        <characteristic name="Traits" typeId="84a2efbc-53df-5a06-9293-eec1dc6d1151">CQB</characteristic>
+        <characteristic name="Critical Effect" typeId="84500f40-b796-5044-bef0-2a69bf7195d2">Pierce</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="24807ed0-0461-5439-b008-ce4d41332c9f" name="Laser Rifle" hidden="false" typeId="1166ff3c-b4bc-5371-b76d-272c0b5afe2e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="5a05e85b-bf69-5f32-bd81-a717d04a1f30">Rifle (18")</characteristic>
+        <characteristic name="Test" typeId="0b5f2f64-cb1d-53af-8c92-b1a2b97c0cf3">4P</characteristic>
+        <characteristic name="Traits" typeId="84a2efbc-53df-5a06-9293-eec1dc6d1151">—</characteristic>
+        <characteristic name="Critical Effect" typeId="84500f40-b796-5044-bef0-2a69bf7195d2">Ignite (1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a46c8b35-868f-55e9-aa47-d331e6da64e4" name="Minigun" hidden="false" typeId="1166ff3c-b4bc-5371-b76d-272c0b5afe2e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="5a05e85b-bf69-5f32-bd81-a717d04a1f30">Heavy (14")</characteristic>
+        <characteristic name="Test" typeId="0b5f2f64-cb1d-53af-8c92-b1a2b97c0cf3">4S</characteristic>
+        <characteristic name="Traits" typeId="84a2efbc-53df-5a06-9293-eec1dc6d1151">Slow, Storm (3)</characteristic>
+        <characteristic name="Critical Effect" typeId="84500f40-b796-5044-bef0-2a69bf7195d2">Pierce</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c894d1d0-c1b0-56ac-84d5-0b367abc86d7" name="Molotov Cocktails" hidden="false" typeId="1166ff3c-b4bc-5371-b76d-272c0b5afe2e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="5a05e85b-bf69-5f32-bd81-a717d04a1f30">Grenade (8")</characteristic>
+        <characteristic name="Test" typeId="0b5f2f64-cb1d-53af-8c92-b1a2b97c0cf3">2A</characteristic>
+        <characteristic name="Traits" typeId="84a2efbc-53df-5a06-9293-eec1dc6d1151">Area (2"), CQB</characteristic>
+        <characteristic name="Critical Effect" typeId="84500f40-b796-5044-bef0-2a69bf7195d2">Ignite (2)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f4bd6363-d175-56ef-94fa-f11c980514bd" name="Pipe Pistol" hidden="false" typeId="1166ff3c-b4bc-5371-b76d-272c0b5afe2e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="5a05e85b-bf69-5f32-bd81-a717d04a1f30">Pistol (8")</characteristic>
+        <characteristic name="Test" typeId="0b5f2f64-cb1d-53af-8c92-b1a2b97c0cf3">4A</characteristic>
+        <characteristic name="Traits" typeId="84a2efbc-53df-5a06-9293-eec1dc6d1151">CQB</characteristic>
+        <characteristic name="Critical Effect" typeId="84500f40-b796-5044-bef0-2a69bf7195d2">—</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="cfd3b41c-3a79-589e-af65-25c7b50d3064" name="Plasma Pistol" hidden="false" typeId="1166ff3c-b4bc-5371-b76d-272c0b5afe2e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="5a05e85b-bf69-5f32-bd81-a717d04a1f30">Pistol (12")</characteristic>
+        <characteristic name="Test" typeId="0b5f2f64-cb1d-53af-8c92-b1a2b97c0cf3">4A</characteristic>
+        <characteristic name="Traits" typeId="84a2efbc-53df-5a06-9293-eec1dc6d1151">CQB</characteristic>
+        <characteristic name="Critical Effect" typeId="84500f40-b796-5044-bef0-2a69bf7195d2">Meltdown</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9b296785-2d37-565a-a58e-9d18d4ee1757" name="Precision Pipe Rifle" hidden="false" typeId="1166ff3c-b4bc-5371-b76d-272c0b5afe2e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="5a05e85b-bf69-5f32-bd81-a717d04a1f30">Rifle (20")</characteristic>
+        <characteristic name="Test" typeId="0b5f2f64-cb1d-53af-8c92-b1a2b97c0cf3">3P</characteristic>
+        <characteristic name="Traits" typeId="84a2efbc-53df-5a06-9293-eec1dc6d1151">Aim (+2)</characteristic>
+        <characteristic name="Critical Effect" typeId="84500f40-b796-5044-bef0-2a69bf7195d2">Pierce</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4bee1b27-ae84-50a8-981e-65ed6f7700e6" name="Short Hunting Rifle" hidden="false" typeId="1166ff3c-b4bc-5371-b76d-272c0b5afe2e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="5a05e85b-bf69-5f32-bd81-a717d04a1f30">Rifle (14")</characteristic>
+        <characteristic name="Test" typeId="0b5f2f64-cb1d-53af-8c92-b1a2b97c0cf3">3P</characteristic>
+        <characteristic name="Traits" typeId="84a2efbc-53df-5a06-9293-eec1dc6d1151">—</characteristic>
+        <characteristic name="Critical Effect" typeId="84500f40-b796-5044-bef0-2a69bf7195d2">Pierce</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="28b3ddb9-1c31-54cf-b322-19cdb9dd1e1f" name="Sledgehammer" hidden="false" typeId="1166ff3c-b4bc-5371-b76d-272c0b5afe2e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="5a05e85b-bf69-5f32-bd81-a717d04a1f30">Melee</characteristic>
+        <characteristic name="Test" typeId="0b5f2f64-cb1d-53af-8c92-b1a2b97c0cf3">4S</characteristic>
+        <characteristic name="Traits" typeId="84a2efbc-53df-5a06-9293-eec1dc6d1151">Unwieldy (5), Wind Up</characteristic>
+        <characteristic name="Critical Effect" typeId="84500f40-b796-5044-bef0-2a69bf7195d2">Maim</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="72988ca1-cd64-588e-bfa6-68f85e937762" name="Super Sledge" hidden="false" typeId="1166ff3c-b4bc-5371-b76d-272c0b5afe2e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="5a05e85b-bf69-5f32-bd81-a717d04a1f30">Melee</characteristic>
+        <characteristic name="Test" typeId="0b5f2f64-cb1d-53af-8c92-b1a2b97c0cf3">6S</characteristic>
+        <characteristic name="Traits" typeId="84a2efbc-53df-5a06-9293-eec1dc6d1151">Unwieldy (6)</characteristic>
+        <characteristic name="Critical Effect" typeId="84500f40-b796-5044-bef0-2a69bf7195d2">Maim</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>

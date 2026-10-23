@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="8f4c990a-6225-570a-8b49-73fef36e61ce" name="Wasteland Raiders" revision="1" battleScribeVersion="2.03" authorName="Personal use" gameSystemId="e8ea97a4-676b-55f2-a1df-54b8b97e97aa" gameSystemRevision="1" library="false" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>Source: Fallout: Factions core / Battle for Boston faction guide assembly guide supplied by the user. Ratings shown = model + weapon set.</readme>
+  <selectionEntries>
+    <selectionEntry id="287f894e-93b7-55f9-9bb3-dd45d0bdcb8b" name="Crew Rules and Ploys" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints><constraint type="max" value="1" field="selections" scope="force" shared="true" id="85f0f1bc-01ef-5d70-b0a2-a774939c4de4"/></constraints>
+      <rules>
+        <rule id="2cce7d02-20c5-5852-938a-211787893eaa" name="Crew Limits" hidden="false"><description>Upgrade Limit per model: T1 3 / T2 5 / T3 7; Champion Limit: T1 3 / T2 5 / T3 5; Facility Limit: T1 2 / T2 4 / T3 6</description></rule>
+        <rule id="478d2747-57f5-5e73-8ce3-26727826cd1c" name="Captive Story Action" hidden="false"><description>Sell Captive (see the Fallout: Factions Rulebook). Do not use if fielding this crew in a Starter Set Campaign.</description></rule>
+        <rule id="2c4ede60-053e-5e5c-a369-1293b2e71303" name="Ploy: In Moderation" hidden="false"><description>When a Friendly model chooses Find a Chem during a Rummage Action: also add a single dose of any Rare Chem to your Crew Roster.</description></rule>
+        <rule id="8dd0cf95-aab9-54fe-a8b5-82e0c9d1107e" name="Ploy: Oh Yeah!" hidden="false"><description>Start of any of your Turns: remove a Common or Rare Chem dose from your Roster. Choose a Friendly Exhausted Grunt, Recover all its Fatigue; until end of Round its Attack Actions add 3 Bonus Dice. When it next becomes Exhausted it can't Recover Fatigue; at end of Round it is Incapacitated.</description></rule>
+        <rule id="5ebeda8c-ff70-52ba-aaff-3b723befecb3" name="Scum restriction" hidden="false"><description>You cannot recruit a Scum if half or more of your Grunts are already Scum.</description></rule>
+      </rules>
+      <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="0.0"/></costs>
+    </selectionEntry>
+    <selectionEntry id="f7dc6141-0a52-5b75-87d5-b7bd355a6cd1" name="Boss" hidden="false" collective="false" import="true" type="model">
+      <constraints><constraint type="max" value="1" field="selections" scope="force" shared="true" id="39fcd41d-c8ba-5365-863c-e4f86cef845d"/></constraints>
+      <categoryLinks>
+        <categoryLink id="7a1289e3-f96f-5b1d-a5d2-e637fcce4d28" name="Leader" hidden="false" targetId="c937afaa-1e6f-520b-acef-ec5e4ad893e1" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6087875f-013d-5f9a-a063-4955e69029f6" name="Weapon Set" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3e8b540f-1c8f-5611-99af-07bd08db5c8b"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="693b2354-d82b-5fe5-95a6-c5d1a53e6d53"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="60cbae52-1975-5f3e-bf7f-7cb8267336d9" name=".44 Pistol &amp; Machete" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="5931cf5c-a50d-563c-9331-5394e91a0784" name=".44 Pistol" hidden="false" targetId="06b6d4a0-7efb-5576-b674-4eb04b29e5b2" type="profile"/>
+                <infoLink id="8f2f18f4-2b3a-5fda-8d01-855d2ab40795" name="Machete" hidden="false" targetId="0eb0d87a-33be-5541-a77b-33f619fc2ffe" type="profile"/>
+              </infoLinks>
+              <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="40.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="c14d3ae4-9aeb-50b4-9f2a-d828180ff286" name="Assault Rifle" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="d8af5a60-08cb-58d3-8326-cb11010cae81" name="Assault Rifle" hidden="false" targetId="28b671a2-91d6-5776-ba40-5dcd111012c6" type="profile"/>
+              </infoLinks>
+              <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="45.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="6ce0cbd3-df3e-5434-bdf5-a496739d85a3" name="Combat Rifle &amp; Baseball Bat" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="253ba91c-2db6-5da2-b13b-a8f268bbe14b" name="Combat Rifle" hidden="false" targetId="362be57e-aa99-50f6-9f58-8bb095ac7502" type="profile"/>
+                <infoLink id="831fb9ff-9889-5c90-8035-0f38ca361d7d" name="Baseball Bat" hidden="false" targetId="66767402-2877-529c-882c-b5a6989aa52b" type="profile"/>
+              </infoLinks>
+              <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="48.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="d502c1db-965a-5a7e-9559-2fc618a642ef" name="Minigun" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="1b269e9b-bd0e-58d4-9200-9a6761593911" name="Minigun" hidden="false" targetId="8f416301-3d24-56df-9bb9-242822f5d87e" type="profile"/>
+              </infoLinks>
+              <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="54.0"/></costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="30c47799-a8fc-5ed5-a65e-c16b31edb4ae" name="Champion Training Upgrades" hidden="false" collective="false" import="true" targetId="ccdad12c-505c-5973-9a75-842274362cd8" type="selectionEntryGroup"/>
+      </entryLinks>
+      <profiles>
+        <profile id="ca72b6ef-ea67-5293-a293-385d12ffba7a" name="Boss" hidden="false" typeId="6f8b4d4e-553f-5269-862d-37ad984d2442" typeName="Model">
+          <characteristics>
+            <characteristic name="Class" typeId="ab805507-2099-5a2a-bfa4-3dd6a9c321ca">Champion, Leader</characteristic>
+            <characteristic name="S" typeId="0dfa85c6-bc00-5557-bfa6-9188a526b111">5</characteristic>
+            <characteristic name="P" typeId="5fba5b08-5d00-56e6-bed6-cd0e4fa09288">5</characteristic>
+            <characteristic name="E" typeId="ef05f34c-a827-5bff-b3c7-5628a0967b19">6</characteristic>
+            <characteristic name="C" typeId="2580abe8-587f-58dc-a4da-e2cab85d5772">5</characteristic>
+            <characteristic name="I" typeId="cece4755-c033-5321-9305-b16e59d38fbb">5</characteristic>
+            <characteristic name="A" typeId="727bf504-4b36-5742-bbfd-78706126f788">5</characteristic>
+            <characteristic name="L" typeId="f5566a6b-f3df-5849-92fa-dc487adfc5fa">3</characteristic>
+            <characteristic name="Health" typeId="b94507e5-c7a2-5063-a1cf-e3066d33544a">3</characteristic>
+            <characteristic name="Perks" typeId="16b4b8c5-f4b7-5701-aa41-b6d8a211dd6e">Natural Leader (Innate), Personal Stash (Innate), Power Armor (Innate)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="0.0"/></costs>
+    </selectionEntry>
+    <selectionEntry id="6f9319fc-2a31-515f-a67a-9a0be33a9d2d" name="Butcher" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="0adaa634-b97b-5155-9b05-4e8e6d7c2b47" name="Champion" hidden="false" targetId="1989afc2-9b3d-5d79-ad30-6671998e9a6a" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="68caa7b2-41e9-5095-81a3-c6125b02a6c4" name="Weapon Set" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="75bd3393-854d-5001-8728-f9f4b56137f6"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1ce30182-aa9b-5e54-98c3-0d0d6193c7ef"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="3de884f1-e78e-5c50-915f-b6c909043a8e" name="Hunting Rifle" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints><constraint type="max" value="2" field="selections" scope="force" shared="true" id="44aae455-97a5-5052-a79e-9007af1fe17f"/></constraints>
+              <infoLinks>
+                <infoLink id="7571e0e0-9d4d-5959-b626-7b8be22a9a68" name="Hunting Rifle" hidden="false" targetId="009387bb-5ee4-53bd-bfbb-3a967d9cf347" type="profile"/>
+              </infoLinks>
+              <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="41.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="63a2dddb-6544-592e-bffc-32509a7360f2" name="Flamer" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints><constraint type="max" value="2" field="selections" scope="force" shared="true" id="e344c306-bac0-58eb-9c76-c9070021da36"/></constraints>
+              <infoLinks>
+                <infoLink id="6be80991-ace0-5efe-846f-5ab2c0c09684" name="Flamer" hidden="false" targetId="809fc473-fc2f-5f2c-8b6b-867bf4192b47" type="profile"/>
+              </infoLinks>
+              <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="45.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="2aaf247b-3ba3-50c2-bad3-57d35e186aab" name="Missile Launcher" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints><constraint type="max" value="2" field="selections" scope="force" shared="true" id="592d9eda-7b19-5995-bb7f-cc6883b540d0"/></constraints>
+              <infoLinks>
+                <infoLink id="8c17bc0f-2cf4-586b-ab3e-b86e07ecb4d5" name="Missile Launcher" hidden="false" targetId="be4bdb24-6b10-5bda-a1e2-580033ba92c6" type="profile"/>
+              </infoLinks>
+              <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="56.0"/></costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="d790f7f8-0337-5cd1-a36c-8145c7866c6d" name="Champion Training Upgrades" hidden="false" collective="false" import="true" targetId="ccdad12c-505c-5973-9a75-842274362cd8" type="selectionEntryGroup"/>
+      </entryLinks>
+      <profiles>
+        <profile id="6064e0c7-ea7e-5ede-a0de-63f1bc8dfa82" name="Butcher" hidden="false" typeId="6f8b4d4e-553f-5269-862d-37ad984d2442" typeName="Model">
+          <characteristics>
+            <characteristic name="Class" typeId="ab805507-2099-5a2a-bfa4-3dd6a9c321ca">Champion</characteristic>
+            <characteristic name="S" typeId="0dfa85c6-bc00-5557-bfa6-9188a526b111">5</characteristic>
+            <characteristic name="P" typeId="5fba5b08-5d00-56e6-bed6-cd0e4fa09288">5</characteristic>
+            <characteristic name="E" typeId="ef05f34c-a827-5bff-b3c7-5628a0967b19">5</characteristic>
+            <characteristic name="C" typeId="2580abe8-587f-58dc-a4da-e2cab85d5772">4</characteristic>
+            <characteristic name="I" typeId="cece4755-c033-5321-9305-b16e59d38fbb">4</characteristic>
+            <characteristic name="A" typeId="727bf504-4b36-5742-bbfd-78706126f788">5</characteristic>
+            <characteristic name="L" typeId="f5566a6b-f3df-5849-92fa-dc487adfc5fa">2</characteristic>
+            <characteristic name="Health" typeId="b94507e5-c7a2-5063-a1cf-e3066d33544a">2</characteristic>
+            <characteristic name="Perks" typeId="16b4b8c5-f4b7-5701-aa41-b6d8a211dd6e">Power Armor (Innate), Sticky Fingers (Innate)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="0.0"/></costs>
+    </selectionEntry>
+    <selectionEntry id="f61f068a-7c1a-5aa9-a8f4-cef1db8ab832" name="Veteran" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="69500054-e878-5c86-9629-c42b584200ad" name="Champion" hidden="false" targetId="1989afc2-9b3d-5d79-ad30-6671998e9a6a" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="719d5513-e3ca-5017-b2e5-e5fffdbb09f5" name="Weapon Set" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6b7f5f9d-99ec-5072-8a68-420542428df1"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="61254ac1-4494-5ecc-9a48-ebfb2955e55f"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="0acd9948-bb06-556f-a3f6-ec4da0e48a21" name="Pipe Pistol &amp; Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints><constraint type="max" value="2" field="selections" scope="force" shared="true" id="64e3c334-4ea0-5819-a8a9-4937238cda80"/></constraints>
+              <infoLinks>
+                <infoLink id="4803bbe0-85c7-5668-9242-9b9f1d9787af" name="Pipe Pistol" hidden="false" targetId="28cc3732-b239-527a-9b2d-1f8e15436316" type="profile"/>
+                <infoLink id="dddbdc2a-600a-5ed5-9204-8b368452ca8b" name="Hand Weapon" hidden="false" targetId="360bfda6-82c0-5094-b632-56b42eaa93b0" type="profile"/>
+              </infoLinks>
+              <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="23.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="b4ac85d3-21ac-5df3-98fd-7a3baf5bffd5" name="Pipe Pistol &amp; Machete" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints><constraint type="max" value="2" field="selections" scope="force" shared="true" id="f2e4fb69-8e6b-55e2-a64e-fbe13457a8ab"/></constraints>
+              <infoLinks>
+                <infoLink id="94069ade-e46f-5fda-9608-7ef4a8dcaba2" name="Pipe Pistol" hidden="false" targetId="28cc3732-b239-527a-9b2d-1f8e15436316" type="profile"/>
+                <infoLink id="2daf49c5-453e-50d3-854b-739f0148eb48" name="Machete" hidden="false" targetId="0eb0d87a-33be-5541-a77b-33f619fc2ffe" type="profile"/>
+              </infoLinks>
+              <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="24.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="aa41a8ca-f309-5731-a7e9-283ac14f3228" name="Sawn-off Shotgun" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints><constraint type="max" value="2" field="selections" scope="force" shared="true" id="7bb8c725-1852-55d7-b9a1-fe6f7505148f"/></constraints>
+              <infoLinks>
+                <infoLink id="cef34045-b3f9-5940-bcf6-c85d90e98693" name="Sawn-off Shotgun" hidden="false" targetId="9d9bda05-7d90-52db-8cd0-a4f4dadbe1b0" type="profile"/>
+              </infoLinks>
+              <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="25.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="70930128-7758-5aa7-b76c-2f585381ee61" name="Pipe Rifle" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints><constraint type="max" value="2" field="selections" scope="force" shared="true" id="1dde6dc7-5b53-5bd9-be55-8cebef64687c"/></constraints>
+              <infoLinks>
+                <infoLink id="890c843a-f11a-5118-9af5-24376b2a037d" name="Pipe Rifle" hidden="false" targetId="6a9c5e7b-b7a7-594a-9d32-26c0249e2854" type="profile"/>
+              </infoLinks>
+              <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="25.0"/></costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="467696fb-b4a3-54f6-a9b6-1c0264f4fee2" name="Champion Training Upgrades" hidden="false" collective="false" import="true" targetId="ccdad12c-505c-5973-9a75-842274362cd8" type="selectionEntryGroup"/>
+      </entryLinks>
+      <profiles>
+        <profile id="6993768e-c8be-5342-a0fe-62a559475596" name="Veteran" hidden="false" typeId="6f8b4d4e-553f-5269-862d-37ad984d2442" typeName="Model">
+          <characteristics>
+            <characteristic name="Class" typeId="ab805507-2099-5a2a-bfa4-3dd6a9c321ca">Champion</characteristic>
+            <characteristic name="S" typeId="0dfa85c6-bc00-5557-bfa6-9188a526b111">4</characteristic>
+            <characteristic name="P" typeId="5fba5b08-5d00-56e6-bed6-cd0e4fa09288">4</characteristic>
+            <characteristic name="E" typeId="ef05f34c-a827-5bff-b3c7-5628a0967b19">4</characteristic>
+            <characteristic name="C" typeId="2580abe8-587f-58dc-a4da-e2cab85d5772">4</characteristic>
+            <characteristic name="I" typeId="cece4755-c033-5321-9305-b16e59d38fbb">4</characteristic>
+            <characteristic name="A" typeId="727bf504-4b36-5742-bbfd-78706126f788">4</characteristic>
+            <characteristic name="L" typeId="f5566a6b-f3df-5849-92fa-dc487adfc5fa">2</characteristic>
+            <characteristic name="Health" typeId="b94507e5-c7a2-5063-a1cf-e3066d33544a">2</characteristic>
+            <characteristic name="Perks" typeId="16b4b8c5-f4b7-5701-aa41-b6d8a211dd6e">Sticky Fingers (Innate)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="0.0"/></costs>
+    </selectionEntry>
+    <selectionEntry id="bc888e28-cb9f-53f4-8568-319aa0ed686c" name="Scavver" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="d7319dd8-a296-5c95-9eb3-d520a01935ae" name="Grunt" hidden="false" targetId="2589ed89-7fed-53e4-a8e6-77d978503ec5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="97cac170-8e2a-56e9-b169-642e7b5bc1e6" name="Weapon Set" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0945ea44-c17c-5aac-b995-892f3fedaad7"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4c1d6723-7591-5657-b90c-cdd8d1475d37"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="6f698566-63bc-5f26-878e-9de59f96339c" name="Short Hunting Rifle" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints><constraint type="max" value="3" field="selections" scope="force" shared="true" id="864144a7-ccb9-55cb-aee9-fa9e159db2a2"/></constraints>
+              <infoLinks>
+                <infoLink id="d2aa2f35-0a1e-5cb3-ba11-e54a33b84930" name="Short Hunting Rifle" hidden="false" targetId="01abab98-652d-5740-ba83-d5a7cbd35762" type="profile"/>
+              </infoLinks>
+              <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="16.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="141e9b83-08a6-566b-a035-ecfa5ee0469a" name="Pipe Rifle" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints><constraint type="max" value="3" field="selections" scope="force" shared="true" id="e77cb1e1-54ef-575f-a5be-d985e520324e"/></constraints>
+              <infoLinks>
+                <infoLink id="93aa07e3-ff71-5e37-9155-1c79eb4ee0f9" name="Pipe Rifle" hidden="false" targetId="6a9c5e7b-b7a7-594a-9d32-26c0249e2854" type="profile"/>
+              </infoLinks>
+              <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="18.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="80aefd22-5363-5b47-9786-3f8306d78691" name="Sawn-off Shotgun" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints><constraint type="max" value="3" field="selections" scope="force" shared="true" id="08491a3d-cce3-50ef-aa87-f271d7deaf13"/></constraints>
+              <infoLinks>
+                <infoLink id="9e5843a3-accb-5c19-a9a6-674eb008c8bb" name="Sawn-off Shotgun" hidden="false" targetId="9d9bda05-7d90-52db-8cd0-a4f4dadbe1b0" type="profile"/>
+              </infoLinks>
+              <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="18.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="4e1cc93d-e54c-53b4-8885-f7e0cb7ae2b6" name="Automatic Pipe Rifle" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints><constraint type="max" value="3" field="selections" scope="force" shared="true" id="11f30b5d-1c3f-5e57-8e1a-8e0e736f4ba9"/></constraints>
+              <infoLinks>
+                <infoLink id="a1e3163f-ea5b-5da0-8001-3e913bd09809" name="Automatic Pipe Rifle" hidden="false" targetId="bacd5284-a89e-5c24-96d3-ca49d0fd1d5f" type="profile"/>
+              </infoLinks>
+              <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="20.0"/></costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="4bbb626c-d731-501d-bd08-865f86f62bb6" name="Grunt Training Upgrades" hidden="false" collective="false" import="true" targetId="4544580c-0ff7-5ab4-b5f6-5bbc2263508a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <profiles>
+        <profile id="c6c287fd-cb3d-554d-83da-cd3fbd034df8" name="Scavver" hidden="false" typeId="6f8b4d4e-553f-5269-862d-37ad984d2442" typeName="Model">
+          <characteristics>
+            <characteristic name="Class" typeId="ab805507-2099-5a2a-bfa4-3dd6a9c321ca">Grunt</characteristic>
+            <characteristic name="S" typeId="0dfa85c6-bc00-5557-bfa6-9188a526b111">3</characteristic>
+            <characteristic name="P" typeId="5fba5b08-5d00-56e6-bed6-cd0e4fa09288">4</characteristic>
+            <characteristic name="E" typeId="ef05f34c-a827-5bff-b3c7-5628a0967b19">3</characteristic>
+            <characteristic name="C" typeId="2580abe8-587f-58dc-a4da-e2cab85d5772">3</characteristic>
+            <characteristic name="I" typeId="cece4755-c033-5321-9305-b16e59d38fbb">3</characteristic>
+            <characteristic name="A" typeId="727bf504-4b36-5742-bbfd-78706126f788">3</characteristic>
+            <characteristic name="L" typeId="f5566a6b-f3df-5849-92fa-dc487adfc5fa">2</characteristic>
+            <characteristic name="Health" typeId="b94507e5-c7a2-5063-a1cf-e3066d33544a">1</characteristic>
+            <characteristic name="Perks" typeId="16b4b8c5-f4b7-5701-aa41-b6d8a211dd6e">—</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="0.0"/></costs>
+    </selectionEntry>
+    <selectionEntry id="e2944508-2781-5aed-91c1-a2a046d871f7" name="Psycho" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="99bb3db5-73ea-51af-a9a4-c3233bc803b7" name="Grunt" hidden="false" targetId="2589ed89-7fed-53e4-a8e6-77d978503ec5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="94931a11-bc62-5b45-9891-9cdf6cbc5450" name="Weapon Set" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a38d44de-373e-541c-8ebe-b32892677ee4"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ee190098-c0b3-5b36-94db-50c0943e98d0"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="07ef8001-1af3-52c2-92ce-0a1f60304a90" name="Pipe Revolver &amp; Baseball Bat" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints><constraint type="max" value="3" field="selections" scope="force" shared="true" id="4825ff12-3894-5d94-ad9f-2432b91cce98"/></constraints>
+              <infoLinks>
+                <infoLink id="a05a548d-baf4-556c-8982-2b269956827a" name="Pipe Revolver" hidden="false" targetId="e9b2f53c-11eb-5a51-a885-a082f5c16f33" type="profile"/>
+                <infoLink id="91867f4a-797d-58f0-aa00-3ad318f58322" name="Baseball Bat" hidden="false" targetId="66767402-2877-529c-882c-b5a6989aa52b" type="profile"/>
+              </infoLinks>
+              <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="17.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="9f5b082a-dbeb-518f-83c9-079dd6a447d0" name="Pipe Revolver &amp; Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints><constraint type="max" value="3" field="selections" scope="force" shared="true" id="857a0b21-392a-551f-9b11-c11aa6f4b358"/></constraints>
+              <infoLinks>
+                <infoLink id="700e47d7-9a8d-537d-9bd2-8da1a3990d83" name="Pipe Revolver" hidden="false" targetId="e9b2f53c-11eb-5a51-a885-a082f5c16f33" type="profile"/>
+                <infoLink id="d9d73bfc-95e9-52d0-9e83-95d65e0e5452" name="Hand Weapon" hidden="false" targetId="360bfda6-82c0-5094-b632-56b42eaa93b0" type="profile"/>
+              </infoLinks>
+              <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="17.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="9ee63e8d-b17a-5573-93d8-45d24fbb23d3" name="Molotov Cocktails &amp; Baseball Bat" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints><constraint type="max" value="3" field="selections" scope="force" shared="true" id="5dc9b2f5-e2da-56e1-badf-664636837c16"/></constraints>
+              <infoLinks>
+                <infoLink id="ce0fbab4-cfb7-5a0e-860f-361a61907a35" name="Molotov Cocktails" hidden="false" targetId="bce87ee9-6559-5141-be36-7af6590b231b" type="profile"/>
+                <infoLink id="407cd1d0-8202-5691-b4d3-597e8e1e1f6a" name="Baseball Bat" hidden="false" targetId="66767402-2877-529c-882c-b5a6989aa52b" type="profile"/>
+              </infoLinks>
+              <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="19.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="57d32bbb-d11a-50fe-b96b-01c2d240ab51" name="Baseball Grenades &amp; Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints><constraint type="max" value="3" field="selections" scope="force" shared="true" id="665d3133-f62a-5228-9344-dd8537dc6b28"/></constraints>
+              <infoLinks>
+                <infoLink id="29b18006-703b-5bc9-b8d3-3162025172f8" name="Baseball Grenades" hidden="false" targetId="6200118d-9f44-5f6a-b1b0-f4d5a628c1bb" type="profile"/>
+                <infoLink id="1fd6ec7d-8331-56f4-94a3-69a88735b13c" name="Hand Weapon" hidden="false" targetId="360bfda6-82c0-5094-b632-56b42eaa93b0" type="profile"/>
+              </infoLinks>
+              <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="22.0"/></costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="76f0b4d5-7b76-5000-8888-4a9b136e2961" name="Grunt Training Upgrades" hidden="false" collective="false" import="true" targetId="4544580c-0ff7-5ab4-b5f6-5bbc2263508a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <profiles>
+        <profile id="01754329-38eb-538e-ad9e-3dbd05f71038" name="Psycho" hidden="false" typeId="6f8b4d4e-553f-5269-862d-37ad984d2442" typeName="Model">
+          <characteristics>
+            <characteristic name="Class" typeId="ab805507-2099-5a2a-bfa4-3dd6a9c321ca">Grunt</characteristic>
+            <characteristic name="S" typeId="0dfa85c6-bc00-5557-bfa6-9188a526b111">4</characteristic>
+            <characteristic name="P" typeId="5fba5b08-5d00-56e6-bed6-cd0e4fa09288">3</characteristic>
+            <characteristic name="E" typeId="ef05f34c-a827-5bff-b3c7-5628a0967b19">4</characteristic>
+            <characteristic name="C" typeId="2580abe8-587f-58dc-a4da-e2cab85d5772">3</characteristic>
+            <characteristic name="I" typeId="cece4755-c033-5321-9305-b16e59d38fbb">3</characteristic>
+            <characteristic name="A" typeId="727bf504-4b36-5742-bbfd-78706126f788">4</characteristic>
+            <characteristic name="L" typeId="f5566a6b-f3df-5849-92fa-dc487adfc5fa">2</characteristic>
+            <characteristic name="Health" typeId="b94507e5-c7a2-5063-a1cf-e3066d33544a">1</characteristic>
+            <characteristic name="Perks" typeId="16b4b8c5-f4b7-5701-aa41-b6d8a211dd6e">—</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="0.0"/></costs>
+    </selectionEntry>
+    <selectionEntry id="5a881455-41bf-526c-bd32-a4a9c3e62a54" name="Scum" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="83e5bf93-e355-5c77-9b8b-e4d82930399c" name="Grunt" hidden="false" targetId="2589ed89-7fed-53e4-a8e6-77d978503ec5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="83372840-49f1-5e8d-910a-5e70805984c0" name="Weapon Set" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6ba684d1-f96d-5540-a435-205be0c76958"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c5953e33-4c05-5fe2-8540-ccbf905c5383"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="83868700-3389-52d9-92d7-af46f6f9d944" name="Pipe Revolver &amp; Baseball Bat" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints><constraint type="max" value="3" field="selections" scope="force" shared="true" id="be3d76d2-1f9c-585b-b669-95ac367936a0"/></constraints>
+              <infoLinks>
+                <infoLink id="557fbbb1-ba5a-5f0f-b777-17866eba5f3f" name="Pipe Revolver" hidden="false" targetId="e9b2f53c-11eb-5a51-a885-a082f5c16f33" type="profile"/>
+                <infoLink id="b4e4acda-bd40-5193-aa99-0d2697a38f8c" name="Baseball Bat" hidden="false" targetId="66767402-2877-529c-882c-b5a6989aa52b" type="profile"/>
+              </infoLinks>
+              <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="12.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="41793350-5bf5-5a18-b13d-38f1e4289f9d" name="Pipe Pistol &amp; Molotov Cocktails" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints><constraint type="max" value="3" field="selections" scope="force" shared="true" id="1a8611f4-dd99-5551-8354-62f31decdd2b"/></constraints>
+              <infoLinks>
+                <infoLink id="78c734c5-7a38-5143-b372-85e8e2bec59c" name="Pipe Pistol" hidden="false" targetId="28cc3732-b239-527a-9b2d-1f8e15436316" type="profile"/>
+                <infoLink id="7023f907-8d5c-5f27-973e-10ff604a7ade" name="Molotov Cocktails" hidden="false" targetId="bce87ee9-6559-5141-be36-7af6590b231b" type="profile"/>
+              </infoLinks>
+              <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="13.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="0457bd10-add6-5ffa-a550-e11aecb38b36" name="Pipe Pistol &amp; Machete" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints><constraint type="max" value="3" field="selections" scope="force" shared="true" id="62636c35-4386-5758-8634-07a862598c53"/></constraints>
+              <infoLinks>
+                <infoLink id="4e210368-f1bc-512d-98a1-cb1f642dac1d" name="Pipe Pistol" hidden="false" targetId="28cc3732-b239-527a-9b2d-1f8e15436316" type="profile"/>
+                <infoLink id="4114a0a5-dd77-540d-a9d0-bddd088a1cd1" name="Machete" hidden="false" targetId="0eb0d87a-33be-5541-a77b-33f619fc2ffe" type="profile"/>
+              </infoLinks>
+              <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="14.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="380aac7d-3f98-5272-80bc-271b5ca94c8a" name="Pipe Rifle" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints><constraint type="max" value="3" field="selections" scope="force" shared="true" id="3153d7d9-5f9e-55e6-be55-e6c4c95e8d54"/></constraints>
+              <infoLinks>
+                <infoLink id="6cfbd13b-fb45-5960-8480-15b66fa98176" name="Pipe Rifle" hidden="false" targetId="6a9c5e7b-b7a7-594a-9d32-26c0249e2854" type="profile"/>
+              </infoLinks>
+              <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="16.0"/></costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="913e57a1-d40b-584e-ba0a-d980a5c03704" name="Grunt Training Upgrades" hidden="false" collective="false" import="true" targetId="4544580c-0ff7-5ab4-b5f6-5bbc2263508a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <profiles>
+        <profile id="976e27b0-80e8-5871-bbb6-e5e52e528ad0" name="Scum" hidden="false" typeId="6f8b4d4e-553f-5269-862d-37ad984d2442" typeName="Model">
+          <characteristics>
+            <characteristic name="Class" typeId="ab805507-2099-5a2a-bfa4-3dd6a9c321ca">Grunt</characteristic>
+            <characteristic name="S" typeId="0dfa85c6-bc00-5557-bfa6-9188a526b111">3</characteristic>
+            <characteristic name="P" typeId="5fba5b08-5d00-56e6-bed6-cd0e4fa09288">3</characteristic>
+            <characteristic name="E" typeId="ef05f34c-a827-5bff-b3c7-5628a0967b19">3</characteristic>
+            <characteristic name="C" typeId="2580abe8-587f-58dc-a4da-e2cab85d5772">3</characteristic>
+            <characteristic name="I" typeId="cece4755-c033-5321-9305-b16e59d38fbb">3</characteristic>
+            <characteristic name="A" typeId="727bf504-4b36-5742-bbfd-78706126f788">3</characteristic>
+            <characteristic name="L" typeId="f5566a6b-f3df-5849-92fa-dc487adfc5fa">1</characteristic>
+            <characteristic name="Health" typeId="b94507e5-c7a2-5063-a1cf-e3066d33544a">1</characteristic>
+            <characteristic name="Perks" typeId="16b4b8c5-f4b7-5701-aa41-b6d8a211dd6e">—</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="0.0"/></costs>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedProfiles>
+    <profile id="06b6d4a0-7efb-5576-b674-4eb04b29e5b2" name=".44 Pistol" hidden="false" typeId="1166ff3c-b4bc-5371-b76d-272c0b5afe2e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="5a05e85b-bf69-5f32-bd81-a717d04a1f30">Pistol (14")</characteristic>
+        <characteristic name="Test" typeId="0b5f2f64-cb1d-53af-8c92-b1a2b97c0cf3">4A</characteristic>
+        <characteristic name="Traits" typeId="84a2efbc-53df-5a06-9293-eec1dc6d1151">Aim (+1)</characteristic>
+        <characteristic name="Critical Effect" typeId="84500f40-b796-5044-bef0-2a69bf7195d2">Pierce</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="28b671a2-91d6-5776-ba40-5dcd111012c6" name="Assault Rifle" hidden="false" typeId="1166ff3c-b4bc-5371-b76d-272c0b5afe2e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="5a05e85b-bf69-5f32-bd81-a717d04a1f30">Rifle (20")</characteristic>
+        <characteristic name="Test" typeId="0b5f2f64-cb1d-53af-8c92-b1a2b97c0cf3">4P</characteristic>
+        <characteristic name="Traits" typeId="84a2efbc-53df-5a06-9293-eec1dc6d1151">Storm (1)</characteristic>
+        <characteristic name="Critical Effect" typeId="84500f40-b796-5044-bef0-2a69bf7195d2">Maim</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bacd5284-a89e-5c24-96d3-ca49d0fd1d5f" name="Automatic Pipe Rifle" hidden="false" typeId="1166ff3c-b4bc-5371-b76d-272c0b5afe2e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="5a05e85b-bf69-5f32-bd81-a717d04a1f30">Rifle (16")</characteristic>
+        <characteristic name="Test" typeId="0b5f2f64-cb1d-53af-8c92-b1a2b97c0cf3">3P</characteristic>
+        <characteristic name="Traits" typeId="84a2efbc-53df-5a06-9293-eec1dc6d1151">Aim (+1), Storm (1)</characteristic>
+        <characteristic name="Critical Effect" typeId="84500f40-b796-5044-bef0-2a69bf7195d2">Suppress (2)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="66767402-2877-529c-882c-b5a6989aa52b" name="Baseball Bat" hidden="false" typeId="1166ff3c-b4bc-5371-b76d-272c0b5afe2e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="5a05e85b-bf69-5f32-bd81-a717d04a1f30">Melee</characteristic>
+        <characteristic name="Test" typeId="0b5f2f64-cb1d-53af-8c92-b1a2b97c0cf3">3S</characteristic>
+        <characteristic name="Traits" typeId="84a2efbc-53df-5a06-9293-eec1dc6d1151">Wind Up</characteristic>
+        <characteristic name="Critical Effect" typeId="84500f40-b796-5044-bef0-2a69bf7195d2">Suppress (1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6200118d-9f44-5f6a-b1b0-f4d5a628c1bb" name="Baseball Grenades" hidden="false" typeId="1166ff3c-b4bc-5371-b76d-272c0b5afe2e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="5a05e85b-bf69-5f32-bd81-a717d04a1f30">Grenade (8")</characteristic>
+        <characteristic name="Test" typeId="0b5f2f64-cb1d-53af-8c92-b1a2b97c0cf3">3A</characteristic>
+        <characteristic name="Traits" typeId="84a2efbc-53df-5a06-9293-eec1dc6d1151">Area (2"), Big Swing (6"), CQB</characteristic>
+        <characteristic name="Critical Effect" typeId="84500f40-b796-5044-bef0-2a69bf7195d2">Suppress (1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="362be57e-aa99-50f6-9f58-8bb095ac7502" name="Combat Rifle" hidden="false" typeId="1166ff3c-b4bc-5371-b76d-272c0b5afe2e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="5a05e85b-bf69-5f32-bd81-a717d04a1f30">Rifle (24")</characteristic>
+        <characteristic name="Test" typeId="0b5f2f64-cb1d-53af-8c92-b1a2b97c0cf3">4P</characteristic>
+        <characteristic name="Traits" typeId="84a2efbc-53df-5a06-9293-eec1dc6d1151">Fast</characteristic>
+        <characteristic name="Critical Effect" typeId="84500f40-b796-5044-bef0-2a69bf7195d2">Maim</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="809fc473-fc2f-5f2c-8b6b-867bf4192b47" name="Flamer" hidden="false" typeId="1166ff3c-b4bc-5371-b76d-272c0b5afe2e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="5a05e85b-bf69-5f32-bd81-a717d04a1f30">Heavy (6")</characteristic>
+        <characteristic name="Test" typeId="0b5f2f64-cb1d-53af-8c92-b1a2b97c0cf3">4S</characteristic>
+        <characteristic name="Traits" typeId="84a2efbc-53df-5a06-9293-eec1dc6d1151">Area (2"), CQB</characteristic>
+        <characteristic name="Critical Effect" typeId="84500f40-b796-5044-bef0-2a69bf7195d2">Ignite (3)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="360bfda6-82c0-5094-b632-56b42eaa93b0" name="Hand Weapon" hidden="false" typeId="1166ff3c-b4bc-5371-b76d-272c0b5afe2e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="5a05e85b-bf69-5f32-bd81-a717d04a1f30">Melee</characteristic>
+        <characteristic name="Test" typeId="0b5f2f64-cb1d-53af-8c92-b1a2b97c0cf3">3S</characteristic>
+        <characteristic name="Traits" typeId="84a2efbc-53df-5a06-9293-eec1dc6d1151">Fast</characteristic>
+        <characteristic name="Critical Effect" typeId="84500f40-b796-5044-bef0-2a69bf7195d2">—</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="009387bb-5ee4-53bd-bfbb-3a967d9cf347" name="Hunting Rifle" hidden="false" typeId="1166ff3c-b4bc-5371-b76d-272c0b5afe2e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="5a05e85b-bf69-5f32-bd81-a717d04a1f30">Rifle (22")</characteristic>
+        <characteristic name="Test" typeId="0b5f2f64-cb1d-53af-8c92-b1a2b97c0cf3">3P</characteristic>
+        <characteristic name="Traits" typeId="84a2efbc-53df-5a06-9293-eec1dc6d1151">Aim (+1)</characteristic>
+        <characteristic name="Critical Effect" typeId="84500f40-b796-5044-bef0-2a69bf7195d2">Pierce</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0eb0d87a-33be-5541-a77b-33f619fc2ffe" name="Machete" hidden="false" typeId="1166ff3c-b4bc-5371-b76d-272c0b5afe2e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="5a05e85b-bf69-5f32-bd81-a717d04a1f30">Melee</characteristic>
+        <characteristic name="Test" typeId="0b5f2f64-cb1d-53af-8c92-b1a2b97c0cf3">4S</characteristic>
+        <characteristic name="Traits" typeId="84a2efbc-53df-5a06-9293-eec1dc6d1151">—</characteristic>
+        <characteristic name="Critical Effect" typeId="84500f40-b796-5044-bef0-2a69bf7195d2">Maim</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8f416301-3d24-56df-9bb9-242822f5d87e" name="Minigun" hidden="false" typeId="1166ff3c-b4bc-5371-b76d-272c0b5afe2e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="5a05e85b-bf69-5f32-bd81-a717d04a1f30">Heavy (14")</characteristic>
+        <characteristic name="Test" typeId="0b5f2f64-cb1d-53af-8c92-b1a2b97c0cf3">4S</characteristic>
+        <characteristic name="Traits" typeId="84a2efbc-53df-5a06-9293-eec1dc6d1151">Slow, Storm (3)</characteristic>
+        <characteristic name="Critical Effect" typeId="84500f40-b796-5044-bef0-2a69bf7195d2">Pierce</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="be4bdb24-6b10-5bda-a1e2-580033ba92c6" name="Missile Launcher" hidden="false" typeId="1166ff3c-b4bc-5371-b76d-272c0b5afe2e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="5a05e85b-bf69-5f32-bd81-a717d04a1f30">Heavy (26")</characteristic>
+        <characteristic name="Test" typeId="0b5f2f64-cb1d-53af-8c92-b1a2b97c0cf3">5S</characteristic>
+        <characteristic name="Traits" typeId="84a2efbc-53df-5a06-9293-eec1dc6d1151">Area (3"), Slow</characteristic>
+        <characteristic name="Critical Effect" typeId="84500f40-b796-5044-bef0-2a69bf7195d2">Maim</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bce87ee9-6559-5141-be36-7af6590b231b" name="Molotov Cocktails" hidden="false" typeId="1166ff3c-b4bc-5371-b76d-272c0b5afe2e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="5a05e85b-bf69-5f32-bd81-a717d04a1f30">Grenade (8")</characteristic>
+        <characteristic name="Test" typeId="0b5f2f64-cb1d-53af-8c92-b1a2b97c0cf3">2A</characteristic>
+        <characteristic name="Traits" typeId="84a2efbc-53df-5a06-9293-eec1dc6d1151">Area (2"), CQB</characteristic>
+        <characteristic name="Critical Effect" typeId="84500f40-b796-5044-bef0-2a69bf7195d2">Ignite (2)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="28cc3732-b239-527a-9b2d-1f8e15436316" name="Pipe Pistol" hidden="false" typeId="1166ff3c-b4bc-5371-b76d-272c0b5afe2e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="5a05e85b-bf69-5f32-bd81-a717d04a1f30">Pistol (8")</characteristic>
+        <characteristic name="Test" typeId="0b5f2f64-cb1d-53af-8c92-b1a2b97c0cf3">4A</characteristic>
+        <characteristic name="Traits" typeId="84a2efbc-53df-5a06-9293-eec1dc6d1151">CQB</characteristic>
+        <characteristic name="Critical Effect" typeId="84500f40-b796-5044-bef0-2a69bf7195d2">—</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e9b2f53c-11eb-5a51-a885-a082f5c16f33" name="Pipe Revolver" hidden="false" typeId="1166ff3c-b4bc-5371-b76d-272c0b5afe2e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="5a05e85b-bf69-5f32-bd81-a717d04a1f30">Pistol (12")</characteristic>
+        <characteristic name="Test" typeId="0b5f2f64-cb1d-53af-8c92-b1a2b97c0cf3">3A</characteristic>
+        <characteristic name="Traits" typeId="84a2efbc-53df-5a06-9293-eec1dc6d1151">Aim (+1), CQB</characteristic>
+        <characteristic name="Critical Effect" typeId="84500f40-b796-5044-bef0-2a69bf7195d2">Pierce</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6a9c5e7b-b7a7-594a-9d32-26c0249e2854" name="Pipe Rifle" hidden="false" typeId="1166ff3c-b4bc-5371-b76d-272c0b5afe2e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="5a05e85b-bf69-5f32-bd81-a717d04a1f30">Rifle (20")</characteristic>
+        <characteristic name="Test" typeId="0b5f2f64-cb1d-53af-8c92-b1a2b97c0cf3">3P</characteristic>
+        <characteristic name="Traits" typeId="84a2efbc-53df-5a06-9293-eec1dc6d1151">Aim (+1)</characteristic>
+        <characteristic name="Critical Effect" typeId="84500f40-b796-5044-bef0-2a69bf7195d2">Suppress (1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9d9bda05-7d90-52db-8cd0-a4f4dadbe1b0" name="Sawn-off Shotgun" hidden="false" typeId="1166ff3c-b4bc-5371-b76d-272c0b5afe2e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="5a05e85b-bf69-5f32-bd81-a717d04a1f30">Rifle (8")</characteristic>
+        <characteristic name="Test" typeId="0b5f2f64-cb1d-53af-8c92-b1a2b97c0cf3">4P</characteristic>
+        <characteristic name="Traits" typeId="84a2efbc-53df-5a06-9293-eec1dc6d1151">CQB, Storm (2)</characteristic>
+        <characteristic name="Critical Effect" typeId="84500f40-b796-5044-bef0-2a69bf7195d2">Maim</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="01abab98-652d-5740-ba83-d5a7cbd35762" name="Short Hunting Rifle" hidden="false" typeId="1166ff3c-b4bc-5371-b76d-272c0b5afe2e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="5a05e85b-bf69-5f32-bd81-a717d04a1f30">Rifle (14")</characteristic>
+        <characteristic name="Test" typeId="0b5f2f64-cb1d-53af-8c92-b1a2b97c0cf3">3P</characteristic>
+        <characteristic name="Traits" typeId="84a2efbc-53df-5a06-9293-eec1dc6d1151">—</characteristic>
+        <characteristic name="Critical Effect" typeId="84500f40-b796-5044-bef0-2a69bf7195d2">Pierce</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>

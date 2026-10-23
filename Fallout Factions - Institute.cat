@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="9445bff0-9fbc-5482-87e7-9d5f1425e138" name="Institute" revision="1" battleScribeVersion="2.03" authorName="Personal use" gameSystemId="e8ea97a4-676b-55f2-a1df-54b8b97e97aa" gameSystemRevision="1" library="false" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>Source: Fallout: Factions core / Battle for Boston faction guide assembly guide supplied by the user. Ratings shown = model + weapon set.</readme>
+  <selectionEntries>
+    <selectionEntry id="dc09895f-ef50-546b-a1ba-462931e8e8ae" name="Crew Rules and Ploys" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints><constraint type="max" value="1" field="selections" scope="force" shared="true" id="0146b7f9-0ab1-5008-a055-f1effad6e585"/></constraints>
+      <rules>
+        <rule id="5a4b54a2-7edf-519f-a1f0-96ba60f8d26a" name="Crew Limits" hidden="false"><description>Upgrade Limit per model: T1 4 / T2 6 / T3 8; Champion Limit: T1 5 / T2 6 / T3 7; Total Control Limit: T1 5 / T2 10 / T3 15</description></rule>
+        <rule id="ed54c04c-455f-5818-93e6-71011adf3649" name="Ploy: Molecular Relay" hidden="false"><description>Before either crew Deploys: choose up to two Gen 1/Gen 2 Synths; they aren't Deployed normally. At the start of Round 1 place them anywhere not within an Enemy Control Area.</description></rule>
+        <rule id="adcee98f-220d-5bb5-a0a0-0da705fa14ac" name="Ploy: Bogeyman of the Wasteland" hidden="false"><description>Start of game, before Turn 1: every Enemy model makes a Confusion Test (2I).</description></rule>
+        <rule id="02cf7678-e599-5320-a3a1-ead1909aeeba" name="Gen 1 Synth restriction" hidden="false"><description>No more than half of the Grunts in a crew can be Gen 1 Synths.</description></rule>
+      </rules>
+      <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="0.0"/></costs>
+    </selectionEntry>
+    <selectionEntry id="c6e5c542-0ea3-5c2c-bc41-4d40afb9ae08" name="Courser" hidden="false" collective="false" import="true" type="model">
+      <constraints><constraint type="max" value="1" field="selections" scope="force" shared="true" id="e0894f24-114f-523e-87a8-e8e08a14a946"/></constraints>
+      <categoryLinks>
+        <categoryLink id="7ffa46b2-4223-5350-8c1e-48a12c9af1dd" name="Leader" hidden="false" targetId="c937afaa-1e6f-520b-acef-ec5e4ad893e1" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e660abb1-2636-5b94-ad0f-6f5c0dd2d048" name="Weapon Set" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5eb5d33d-460f-5458-b759-7608f40512dd"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a6b99a52-00f7-579a-b311-b29eebb9a30e"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="72ac7351-a83e-54b0-8a16-e625de51cdc2" name="Synth Relay Grenade &amp; Focused Institute Pistol" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="5ee40dfb-0722-5bfc-b77e-8650b2afec6e" name="Synth Relay Grenade" hidden="false" targetId="b6729f30-45ad-53c6-9f25-b4dbdb0c93f7" type="profile"/>
+                <infoLink id="1096355b-780b-5ca1-ad62-c87d9a6f70da" name="Focused Institute Pistol" hidden="false" targetId="2c3c833a-e8be-559e-a2a4-3836602a2ac6" type="profile"/>
+              </infoLinks>
+              <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="57.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="c5076209-dafc-5b85-b9f6-7773c81e8c83" name="Automatic Institute Rifle" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="1ed449b2-be43-57b0-9362-6df72bcd8949" name="Automatic Institute Rifle" hidden="false" targetId="e94b084f-c06c-5bb9-8ac4-e6c00a1002e0" type="profile"/>
+              </infoLinks>
+              <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="60.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="3e7d3cee-dd0d-52a9-84cd-9bc11b2313ea" name="Scattered Institute Rifle" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="df3efe11-2615-5ca4-b2d2-6013b3825e54" name="Scattered Institute Rifle" hidden="false" targetId="5073a2a7-7211-5fac-be6a-c0bec6912d2c" type="profile"/>
+              </infoLinks>
+              <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="64.0"/></costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="2cc45c61-0ed4-501c-8b7a-d61d3bd2fc6a" name="Champion Training Upgrades" hidden="false" collective="false" import="true" targetId="ccdad12c-505c-5973-9a75-842274362cd8" type="selectionEntryGroup"/>
+      </entryLinks>
+      <profiles>
+        <profile id="86ef5b9a-bd03-5034-9a61-1dee8130aef7" name="Courser" hidden="false" typeId="6f8b4d4e-553f-5269-862d-37ad984d2442" typeName="Model">
+          <characteristics>
+            <characteristic name="Class" typeId="ab805507-2099-5a2a-bfa4-3dd6a9c321ca">Champion, Leader</characteristic>
+            <characteristic name="S" typeId="0dfa85c6-bc00-5557-bfa6-9188a526b111">6</characteristic>
+            <characteristic name="P" typeId="5fba5b08-5d00-56e6-bed6-cd0e4fa09288">7</characteristic>
+            <characteristic name="E" typeId="ef05f34c-a827-5bff-b3c7-5628a0967b19">6</characteristic>
+            <characteristic name="C" typeId="2580abe8-587f-58dc-a4da-e2cab85d5772">6</characteristic>
+            <characteristic name="I" typeId="cece4755-c033-5321-9305-b16e59d38fbb">6</characteristic>
+            <characteristic name="A" typeId="727bf504-4b36-5742-bbfd-78706126f788">7</characteristic>
+            <characteristic name="L" typeId="f5566a6b-f3df-5849-92fa-dc487adfc5fa">3</characteristic>
+            <characteristic name="Health" typeId="b94507e5-c7a2-5063-a1cf-e3066d33544a">3</characteristic>
+            <characteristic name="Perks" typeId="16b4b8c5-f4b7-5701-aa41-b6d8a211dd6e">Natural Leader (Innate), Rad Resistant (Endurance), Stealth Boy (Innate)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="0.0"/></costs>
+    </selectionEntry>
+    <selectionEntry id="9f4aa18d-20d8-5ec6-8fc8-4885e3294f3c" name="Synth Infiltrator" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="b66bd012-df7d-5372-95b8-e51529de54f8" name="Champion" hidden="false" targetId="1989afc2-9b3d-5d79-ad30-6671998e9a6a" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6ff8054e-e0e1-5ff0-b5bf-7e74636f50a8" name="Weapon Set" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1d4b2a46-2f73-50da-9c83-0502fc444c90"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3ae534d7-8473-5865-abc1-214f5e736e42"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="3294b3ae-e79f-50b9-bb67-7e8747320be4" name=".44 Pistol &amp; Stun Baton" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints><constraint type="max" value="2" field="selections" scope="force" shared="true" id="a8f4d89f-d32d-5c43-bb7e-4dc4d0532450"/></constraints>
+              <infoLinks>
+                <infoLink id="f43c7f56-477f-56c6-a05b-d9ff01ce5bdf" name=".44 Pistol" hidden="false" targetId="f7b94a3e-c09c-5166-8800-1d6f419fdfd5" type="profile"/>
+                <infoLink id="c4f895e4-1bcc-5431-945a-d0d6b3a8385e" name="Stun Baton" hidden="false" targetId="363b883c-485f-594f-85a3-71b74a89f06c" type="profile"/>
+              </infoLinks>
+              <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="29.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="0f7369a3-6086-5a7c-9c21-95ceda43decc" name="Submachine Gun" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints><constraint type="max" value="2" field="selections" scope="force" shared="true" id="31d45486-837d-5d41-8115-23ba9ecadabd"/></constraints>
+              <infoLinks>
+                <infoLink id="443e6e6c-2fa3-56fe-96c1-033de39b5398" name="Submachine Gun" hidden="false" targetId="6f83a1ea-f590-5cbf-b95d-2bc557a1c922" type="profile"/>
+              </infoLinks>
+              <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="32.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="33a757a5-651f-5edf-9eb1-187f787b43c3" name="Syringer" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints><constraint type="max" value="2" field="selections" scope="force" shared="true" id="49455176-8e39-554a-8075-3b6b93fb4ce5"/></constraints>
+              <infoLinks>
+                <infoLink id="e577c532-2d1b-59ef-a2e4-77b993cdf693" name="Syringer" hidden="false" targetId="f88a919e-4ba4-5417-9570-9f1863ec5d7c" type="profile"/>
+              </infoLinks>
+              <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="33.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="13eeab97-6efc-5c76-ac6d-379948e0037c" name="Precision Combat Rifle" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints><constraint type="max" value="2" field="selections" scope="force" shared="true" id="b9141146-4076-5445-b72b-130ed2edd8f0"/></constraints>
+              <infoLinks>
+                <infoLink id="2b062d38-7724-5793-9e1c-0bc26d66adec" name="Precision Combat Rifle" hidden="false" targetId="28aacecc-c533-516b-b360-9936c1abe528" type="profile"/>
+              </infoLinks>
+              <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="36.0"/></costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="5405b09a-3247-533a-ba2f-dbebcdcf33e4" name="Champion Training Upgrades" hidden="false" collective="false" import="true" targetId="ccdad12c-505c-5973-9a75-842274362cd8" type="selectionEntryGroup"/>
+      </entryLinks>
+      <profiles>
+        <profile id="45ba2317-bc2e-5508-9ab0-48900f5b251d" name="Synth Infiltrator" hidden="false" typeId="6f8b4d4e-553f-5269-862d-37ad984d2442" typeName="Model">
+          <characteristics>
+            <characteristic name="Class" typeId="ab805507-2099-5a2a-bfa4-3dd6a9c321ca">Champion</characteristic>
+            <characteristic name="S" typeId="0dfa85c6-bc00-5557-bfa6-9188a526b111">4</characteristic>
+            <characteristic name="P" typeId="5fba5b08-5d00-56e6-bed6-cd0e4fa09288">4</characteristic>
+            <characteristic name="E" typeId="ef05f34c-a827-5bff-b3c7-5628a0967b19">4</characteristic>
+            <characteristic name="C" typeId="2580abe8-587f-58dc-a4da-e2cab85d5772">3</characteristic>
+            <characteristic name="I" typeId="cece4755-c033-5321-9305-b16e59d38fbb">5</characteristic>
+            <characteristic name="A" typeId="727bf504-4b36-5742-bbfd-78706126f788">4</characteristic>
+            <characteristic name="L" typeId="f5566a6b-f3df-5849-92fa-dc487adfc5fa">2</characteristic>
+            <characteristic name="Health" typeId="b94507e5-c7a2-5063-a1cf-e3066d33544a">2</characteristic>
+            <characteristic name="Perks" typeId="16b4b8c5-f4b7-5701-aa41-b6d8a211dd6e">Hidden (Agility), Rad Resistant (Endurance)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="0.0"/></costs>
+    </selectionEntry>
+    <selectionEntry id="1e9fe4dd-79af-5cbd-9419-9585d8f8a409" name="Institute Scientist" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="5e4665f7-3b60-5ea9-8799-875ea51ade3c" name="Champion" hidden="false" targetId="1989afc2-9b3d-5d79-ad30-6671998e9a6a" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="da6e3246-a15d-5e66-b15a-d436c3174d60" name="Weapon Set" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6c3ac218-c489-54fd-871f-64c16ac8f029"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d2037939-65a3-5069-80d9-0a73ddd5c34e"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="547e98ef-4612-535c-865c-27fce17f2774" name="Institute Pistol &amp; Shock Baton" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints><constraint type="max" value="2" field="selections" scope="force" shared="true" id="8bd31a6d-529e-5a42-ba5a-42d787e039e0"/></constraints>
+              <infoLinks>
+                <infoLink id="cae06894-f135-5e28-bbe5-0203d48c9c05" name="Institute Pistol" hidden="false" targetId="a42bc16e-690d-5ea6-93fb-b9307d5741cb" type="profile"/>
+                <infoLink id="a462ddce-56a6-5529-91b3-35c0669c3cb5" name="Shock Baton" hidden="false" targetId="f8240046-cec4-5add-9b44-64bde7121a18" type="profile"/>
+              </infoLinks>
+              <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="28.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="098109e1-e9a8-55d4-9ee7-e2746b5a5e7f" name="Scattered Institute Rifle" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints><constraint type="max" value="2" field="selections" scope="force" shared="true" id="bc8ce83d-bf2a-587f-8318-bb138dd67f7f"/></constraints>
+              <infoLinks>
+                <infoLink id="35ff08fe-a96b-5357-bfd3-904743c014a3" name="Scattered Institute Rifle" hidden="false" targetId="5073a2a7-7211-5fac-be6a-c0bec6912d2c" type="profile"/>
+              </infoLinks>
+              <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="30.0"/></costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="7b2afe9b-74e9-56e4-8a89-c5d577e5888d" name="Champion Training Upgrades" hidden="false" collective="false" import="true" targetId="ccdad12c-505c-5973-9a75-842274362cd8" type="selectionEntryGroup"/>
+      </entryLinks>
+      <profiles>
+        <profile id="5ed335a1-d341-5b85-8376-d0490c1e6f8c" name="Institute Scientist" hidden="false" typeId="6f8b4d4e-553f-5269-862d-37ad984d2442" typeName="Model">
+          <characteristics>
+            <characteristic name="Class" typeId="ab805507-2099-5a2a-bfa4-3dd6a9c321ca">Champion</characteristic>
+            <characteristic name="S" typeId="0dfa85c6-bc00-5557-bfa6-9188a526b111">3</characteristic>
+            <characteristic name="P" typeId="5fba5b08-5d00-56e6-bed6-cd0e4fa09288">4</characteristic>
+            <characteristic name="E" typeId="ef05f34c-a827-5bff-b3c7-5628a0967b19">3</characteristic>
+            <characteristic name="C" typeId="2580abe8-587f-58dc-a4da-e2cab85d5772">4</characteristic>
+            <characteristic name="I" typeId="cece4755-c033-5321-9305-b16e59d38fbb">7</characteristic>
+            <characteristic name="A" typeId="727bf504-4b36-5742-bbfd-78706126f788">3</characteristic>
+            <characteristic name="L" typeId="f5566a6b-f3df-5849-92fa-dc487adfc5fa">2</characteristic>
+            <characteristic name="Health" typeId="b94507e5-c7a2-5063-a1cf-e3066d33544a">2</characteristic>
+            <characteristic name="Perks" typeId="16b4b8c5-f4b7-5701-aa41-b6d8a211dd6e">Adaptable (Intelligence), Rad Resistant (Endurance), Medic (Intelligence)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="0.0"/></costs>
+    </selectionEntry>
+    <selectionEntry id="fb9dda76-a69a-5a4e-aa06-e79dadc603ca" name="Gen 2 Synth" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="032014df-25e4-5cf6-ad1f-74d8e3254326" name="Grunt" hidden="false" targetId="2589ed89-7fed-53e4-a8e6-77d978503ec5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="fc3b0c62-53e0-5141-bdd2-794850ead949" name="Weapon Set" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="14e1361e-f383-536f-8d53-11309cc1803f"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4aa14ab8-cc8b-5775-b787-092566e4024d"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="870436b0-53a9-55fc-b502-2aa58d898fd3" name="Shock Baton &amp; Focused Institute Pistol" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints><constraint type="max" value="3" field="selections" scope="force" shared="true" id="01b2f5e4-ab59-5c24-8145-da7bee77d4a8"/></constraints>
+              <infoLinks>
+                <infoLink id="c671cfee-bf52-5eb3-99af-13aa24f439e5" name="Shock Baton" hidden="false" targetId="f8240046-cec4-5add-9b44-64bde7121a18" type="profile"/>
+                <infoLink id="c545b495-bdef-5b32-9da5-8ab51b91153a" name="Focused Institute Pistol" hidden="false" targetId="2c3c833a-e8be-559e-a2a4-3836602a2ac6" type="profile"/>
+              </infoLinks>
+              <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="19.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="8965649c-4405-552c-aad8-022c37208fdc" name="Institute Rifle" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints><constraint type="max" value="3" field="selections" scope="force" shared="true" id="b8b0c037-8039-5578-98f8-6f0a3aed0a45"/></constraints>
+              <infoLinks>
+                <infoLink id="5379dfba-0987-5246-9b40-9d20f1f170f7" name="Institute Rifle" hidden="false" targetId="bab50b39-7177-5969-9da6-2c752a57686f" type="profile"/>
+              </infoLinks>
+              <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="20.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="501e55e2-5897-524a-8334-eff766a33c23" name="Precision Institute Rifle" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints><constraint type="max" value="3" field="selections" scope="force" shared="true" id="ffcf7441-2e99-5133-a910-cbe0a2b85cb9"/></constraints>
+              <infoLinks>
+                <infoLink id="e3df2d2d-9861-5ceb-ba00-06a3b6ae8ed9" name="Precision Institute Rifle" hidden="false" targetId="0b780e51-9ee7-5fe5-9743-86f91c22e978" type="profile"/>
+              </infoLinks>
+              <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="23.0"/></costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="a23ad03a-131b-5eac-9224-07d200d69b8b" name="Grunt Training Upgrades" hidden="false" collective="false" import="true" targetId="4544580c-0ff7-5ab4-b5f6-5bbc2263508a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <profiles>
+        <profile id="c9a17327-e857-5ca7-a9cb-222af1ae84a2" name="Gen 2 Synth" hidden="false" typeId="6f8b4d4e-553f-5269-862d-37ad984d2442" typeName="Model">
+          <characteristics>
+            <characteristic name="Class" typeId="ab805507-2099-5a2a-bfa4-3dd6a9c321ca">Grunt</characteristic>
+            <characteristic name="S" typeId="0dfa85c6-bc00-5557-bfa6-9188a526b111">3</characteristic>
+            <characteristic name="P" typeId="5fba5b08-5d00-56e6-bed6-cd0e4fa09288">4</characteristic>
+            <characteristic name="E" typeId="ef05f34c-a827-5bff-b3c7-5628a0967b19">4</characteristic>
+            <characteristic name="C" typeId="2580abe8-587f-58dc-a4da-e2cab85d5772">2</characteristic>
+            <characteristic name="I" typeId="cece4755-c033-5321-9305-b16e59d38fbb">3</characteristic>
+            <characteristic name="A" typeId="727bf504-4b36-5742-bbfd-78706126f788">4</characteristic>
+            <characteristic name="L" typeId="f5566a6b-f3df-5849-92fa-dc487adfc5fa">2</characteristic>
+            <characteristic name="Health" typeId="b94507e5-c7a2-5063-a1cf-e3066d33544a">2</characteristic>
+            <characteristic name="Perks" typeId="16b4b8c5-f4b7-5701-aa41-b6d8a211dd6e">Rad Resistant (Endurance)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="0.0"/></costs>
+    </selectionEntry>
+    <selectionEntry id="15ff7959-a3a6-5710-9b34-8282d0acc986" name="Gen 1 Synth" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="4e910c60-1cd4-565b-b411-74ca105d5d23" name="Grunt" hidden="false" targetId="2589ed89-7fed-53e4-a8e6-77d978503ec5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3b2bfa48-8535-570d-b8ed-57a7258d7d8d" name="Weapon Set" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="79899fe9-2a0a-5a8a-b656-3ef78b9fe5c6"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="318fdfa5-5e64-578e-9748-c33f1386919f"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="70a06d36-0e98-556b-8789-61a86b4ed76d" name="Shock Baton" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints><constraint type="max" value="3" field="selections" scope="force" shared="true" id="16f93feb-97d8-561e-a8a6-f9781c5f8294"/></constraints>
+              <infoLinks>
+                <infoLink id="eef6c1d3-1d6a-5a0b-895b-a7359357196f" name="Shock Baton" hidden="false" targetId="f8240046-cec4-5add-9b44-64bde7121a18" type="profile"/>
+              </infoLinks>
+              <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="8.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="94e45f5d-ead4-5ccf-8d99-3e20a70c517e" name="Institute Pistol" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints><constraint type="max" value="3" field="selections" scope="force" shared="true" id="394e0285-4575-5013-8666-b85ee0c07636"/></constraints>
+              <infoLinks>
+                <infoLink id="07bf7fba-fcfe-54de-960c-2b6e140a5e06" name="Institute Pistol" hidden="false" targetId="a42bc16e-690d-5ea6-93fb-b9307d5741cb" type="profile"/>
+              </infoLinks>
+              <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="9.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="65898a0c-5c26-5e76-a90a-08d65984c2b2" name="Institute Pistol &amp; Shock Baton" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints><constraint type="max" value="3" field="selections" scope="force" shared="true" id="4d7c22fa-c468-5d89-a33b-49c3e1132061"/></constraints>
+              <infoLinks>
+                <infoLink id="0444b17f-8adc-557a-81e1-2b0d274024d2" name="Institute Pistol" hidden="false" targetId="a42bc16e-690d-5ea6-93fb-b9307d5741cb" type="profile"/>
+                <infoLink id="994e3139-d5be-58cc-bb28-8e3c8eaa64ad" name="Shock Baton" hidden="false" targetId="f8240046-cec4-5add-9b44-64bde7121a18" type="profile"/>
+              </infoLinks>
+              <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="11.0"/></costs>
+            </selectionEntry>
+            <selectionEntry id="bd50a6e4-f761-59ec-82cd-c0e01b13b0b1" name="Institute Rifle" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints><constraint type="max" value="3" field="selections" scope="force" shared="true" id="58b8c947-f2f0-5040-a132-d984a0923a2b"/></constraints>
+              <infoLinks>
+                <infoLink id="7fbd5343-27a4-56f5-aa78-0e3c79c31b69" name="Institute Rifle" hidden="false" targetId="bab50b39-7177-5969-9da6-2c752a57686f" type="profile"/>
+              </infoLinks>
+              <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="15.0"/></costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="b62a0605-dbd3-5ef3-81f9-9e3393053afa" name="Grunt Training Upgrades" hidden="false" collective="false" import="true" targetId="4544580c-0ff7-5ab4-b5f6-5bbc2263508a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <profiles>
+        <profile id="fb64ea32-486f-53e7-927a-083dfe2f7998" name="Gen 1 Synth" hidden="false" typeId="6f8b4d4e-553f-5269-862d-37ad984d2442" typeName="Model">
+          <characteristics>
+            <characteristic name="Class" typeId="ab805507-2099-5a2a-bfa4-3dd6a9c321ca">Grunt</characteristic>
+            <characteristic name="S" typeId="0dfa85c6-bc00-5557-bfa6-9188a526b111">3</characteristic>
+            <characteristic name="P" typeId="5fba5b08-5d00-56e6-bed6-cd0e4fa09288">3</characteristic>
+            <characteristic name="E" typeId="ef05f34c-a827-5bff-b3c7-5628a0967b19">3</characteristic>
+            <characteristic name="C" typeId="2580abe8-587f-58dc-a4da-e2cab85d5772">2</characteristic>
+            <characteristic name="I" typeId="cece4755-c033-5321-9305-b16e59d38fbb">2</characteristic>
+            <characteristic name="A" typeId="727bf504-4b36-5742-bbfd-78706126f788">3</characteristic>
+            <characteristic name="L" typeId="f5566a6b-f3df-5849-92fa-dc487adfc5fa">1</characteristic>
+            <characteristic name="Health" typeId="b94507e5-c7a2-5063-a1cf-e3066d33544a">1</characteristic>
+            <characteristic name="Perks" typeId="16b4b8c5-f4b7-5701-aa41-b6d8a211dd6e">Disposable (Innate)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs><cost name="Rating" typeId="682660dc-9396-5ac8-a4c4-fd893fab78f0" value="0.0"/></costs>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedProfiles>
+    <profile id="f7b94a3e-c09c-5166-8800-1d6f419fdfd5" name=".44 Pistol" hidden="false" typeId="1166ff3c-b4bc-5371-b76d-272c0b5afe2e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="5a05e85b-bf69-5f32-bd81-a717d04a1f30">Pistol (14")</characteristic>
+        <characteristic name="Test" typeId="0b5f2f64-cb1d-53af-8c92-b1a2b97c0cf3">4A</characteristic>
+        <characteristic name="Traits" typeId="84a2efbc-53df-5a06-9293-eec1dc6d1151">Aim (+1)</characteristic>
+        <characteristic name="Critical Effect" typeId="84500f40-b796-5044-bef0-2a69bf7195d2">Pierce</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e94b084f-c06c-5bb9-8ac4-e6c00a1002e0" name="Automatic Institute Rifle" hidden="false" typeId="1166ff3c-b4bc-5371-b76d-272c0b5afe2e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="5a05e85b-bf69-5f32-bd81-a717d04a1f30">Rifle (12")</characteristic>
+        <characteristic name="Test" typeId="0b5f2f64-cb1d-53af-8c92-b1a2b97c0cf3">4P</characteristic>
+        <characteristic name="Traits" typeId="84a2efbc-53df-5a06-9293-eec1dc6d1151">—</characteristic>
+        <characteristic name="Critical Effect" typeId="84500f40-b796-5044-bef0-2a69bf7195d2">Flush Out (4)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2c3c833a-e8be-559e-a2a4-3836602a2ac6" name="Focused Institute Pistol" hidden="false" typeId="1166ff3c-b4bc-5371-b76d-272c0b5afe2e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="5a05e85b-bf69-5f32-bd81-a717d04a1f30">Pistol (10")</characteristic>
+        <characteristic name="Test" typeId="0b5f2f64-cb1d-53af-8c92-b1a2b97c0cf3">4A</characteristic>
+        <characteristic name="Traits" typeId="84a2efbc-53df-5a06-9293-eec1dc6d1151">CQB</characteristic>
+        <characteristic name="Critical Effect" typeId="84500f40-b796-5044-bef0-2a69bf7195d2">Ignite (2)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a42bc16e-690d-5ea6-93fb-b9307d5741cb" name="Institute Pistol" hidden="false" typeId="1166ff3c-b4bc-5371-b76d-272c0b5afe2e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="5a05e85b-bf69-5f32-bd81-a717d04a1f30">Pistol (9")</characteristic>
+        <characteristic name="Test" typeId="0b5f2f64-cb1d-53af-8c92-b1a2b97c0cf3">3A</characteristic>
+        <characteristic name="Traits" typeId="84a2efbc-53df-5a06-9293-eec1dc6d1151">CQB</characteristic>
+        <characteristic name="Critical Effect" typeId="84500f40-b796-5044-bef0-2a69bf7195d2">Flush Out (2)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bab50b39-7177-5969-9da6-2c752a57686f" name="Institute Rifle" hidden="false" typeId="1166ff3c-b4bc-5371-b76d-272c0b5afe2e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="5a05e85b-bf69-5f32-bd81-a717d04a1f30">Rifle (15")</characteristic>
+        <characteristic name="Test" typeId="0b5f2f64-cb1d-53af-8c92-b1a2b97c0cf3">4P</characteristic>
+        <characteristic name="Traits" typeId="84a2efbc-53df-5a06-9293-eec1dc6d1151">—</characteristic>
+        <characteristic name="Critical Effect" typeId="84500f40-b796-5044-bef0-2a69bf7195d2">Flush Out (3)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="28aacecc-c533-516b-b360-9936c1abe528" name="Precision Combat Rifle" hidden="false" typeId="1166ff3c-b4bc-5371-b76d-272c0b5afe2e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="5a05e85b-bf69-5f32-bd81-a717d04a1f30">Rifle (30")</characteristic>
+        <characteristic name="Test" typeId="0b5f2f64-cb1d-53af-8c92-b1a2b97c0cf3">4P</characteristic>
+        <characteristic name="Traits" typeId="84a2efbc-53df-5a06-9293-eec1dc6d1151">Aim (+2)</characteristic>
+        <characteristic name="Critical Effect" typeId="84500f40-b796-5044-bef0-2a69bf7195d2">Suppress (2)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0b780e51-9ee7-5fe5-9743-86f91c22e978" name="Precision Institute Rifle" hidden="false" typeId="1166ff3c-b4bc-5371-b76d-272c0b5afe2e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="5a05e85b-bf69-5f32-bd81-a717d04a1f30">Rifle (20")</characteristic>
+        <characteristic name="Test" typeId="0b5f2f64-cb1d-53af-8c92-b1a2b97c0cf3">4P</characteristic>
+        <characteristic name="Traits" typeId="84a2efbc-53df-5a06-9293-eec1dc6d1151">Aim (+2)</characteristic>
+        <characteristic name="Critical Effect" typeId="84500f40-b796-5044-bef0-2a69bf7195d2">Pierce</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5073a2a7-7211-5fac-be6a-c0bec6912d2c" name="Scattered Institute Rifle" hidden="false" typeId="1166ff3c-b4bc-5371-b76d-272c0b5afe2e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="5a05e85b-bf69-5f32-bd81-a717d04a1f30">Rifle (14")</characteristic>
+        <characteristic name="Test" typeId="0b5f2f64-cb1d-53af-8c92-b1a2b97c0cf3">4P</characteristic>
+        <characteristic name="Traits" typeId="84a2efbc-53df-5a06-9293-eec1dc6d1151">Storm (2)</characteristic>
+        <characteristic name="Critical Effect" typeId="84500f40-b796-5044-bef0-2a69bf7195d2">Flush Out (2)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f8240046-cec4-5add-9b44-64bde7121a18" name="Shock Baton" hidden="false" typeId="1166ff3c-b4bc-5371-b76d-272c0b5afe2e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="5a05e85b-bf69-5f32-bd81-a717d04a1f30">Melee</characteristic>
+        <characteristic name="Test" typeId="0b5f2f64-cb1d-53af-8c92-b1a2b97c0cf3">3S</characteristic>
+        <characteristic name="Traits" typeId="84a2efbc-53df-5a06-9293-eec1dc6d1151">—</characteristic>
+        <characteristic name="Critical Effect" typeId="84500f40-b796-5044-bef0-2a69bf7195d2">Maim</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="363b883c-485f-594f-85a3-71b74a89f06c" name="Stun Baton" hidden="false" typeId="1166ff3c-b4bc-5371-b76d-272c0b5afe2e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="5a05e85b-bf69-5f32-bd81-a717d04a1f30">Melee</characteristic>
+        <characteristic name="Test" typeId="0b5f2f64-cb1d-53af-8c92-b1a2b97c0cf3">4S</characteristic>
+        <characteristic name="Traits" typeId="84a2efbc-53df-5a06-9293-eec1dc6d1151">—</characteristic>
+        <characteristic name="Critical Effect" typeId="84500f40-b796-5044-bef0-2a69bf7195d2">Suppress (2)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6f83a1ea-f590-5cbf-b95d-2bc557a1c922" name="Submachine Gun" hidden="false" typeId="1166ff3c-b4bc-5371-b76d-272c0b5afe2e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="5a05e85b-bf69-5f32-bd81-a717d04a1f30">Rifle (8")</characteristic>
+        <characteristic name="Test" typeId="0b5f2f64-cb1d-53af-8c92-b1a2b97c0cf3">2P</characteristic>
+        <characteristic name="Traits" typeId="84a2efbc-53df-5a06-9293-eec1dc6d1151">Fast, Storm (3)</characteristic>
+        <characteristic name="Critical Effect" typeId="84500f40-b796-5044-bef0-2a69bf7195d2">—</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b6729f30-45ad-53c6-9f25-b4dbdb0c93f7" name="Synth Relay Grenade" hidden="false" typeId="1166ff3c-b4bc-5371-b76d-272c0b5afe2e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="5a05e85b-bf69-5f32-bd81-a717d04a1f30">Grenade (10")</characteristic>
+        <characteristic name="Test" typeId="0b5f2f64-cb1d-53af-8c92-b1a2b97c0cf3">1A</characteristic>
+        <characteristic name="Traits" typeId="84a2efbc-53df-5a06-9293-eec1dc6d1151">Area (1"), Reinforcements (One Gen 1 Synth), CQB</characteristic>
+        <characteristic name="Critical Effect" typeId="84500f40-b796-5044-bef0-2a69bf7195d2">—</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f88a919e-4ba4-5417-9570-9f1863ec5d7c" name="Syringer" hidden="false" typeId="1166ff3c-b4bc-5371-b76d-272c0b5afe2e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="5a05e85b-bf69-5f32-bd81-a717d04a1f30">Rifle (16")</characteristic>
+        <characteristic name="Test" typeId="0b5f2f64-cb1d-53af-8c92-b1a2b97c0cf3">2P</characteristic>
+        <characteristic name="Traits" typeId="84a2efbc-53df-5a06-9293-eec1dc6d1151">Aim (+2)</characteristic>
+        <characteristic name="Critical Effect" typeId="84500f40-b796-5044-bef0-2a69bf7195d2">Poison (3)</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>
